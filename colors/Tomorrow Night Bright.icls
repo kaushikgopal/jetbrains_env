@@ -1473,7 +1473,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="969896" />
+        <option name="FOREGROUND" value="656765" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>

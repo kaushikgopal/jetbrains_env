@@ -129,11 +129,9 @@
     <option name="ASSERT_STATEMENT_COLON_ON_NEXT_LINE" value="true" />
     <option name="WHILE_BRACE_FORCE" value="1" />
     <option name="FOR_BRACE_FORCE" value="1" />
-    <option name="METHOD_ANNOTATION_WRAP" value="5" />
-    <option name="CLASS_ANNOTATION_WRAP" value="5" />
-    <option name="FIELD_ANNOTATION_WRAP" value="1" />
-    <option name="PARAMETER_ANNOTATION_WRAP" value="1" />
-    <option name="VARIABLE_ANNOTATION_WRAP" value="1" />
+    <option name="FIELD_ANNOTATION_WRAP" value="5" />
+    <option name="PARAMETER_ANNOTATION_WRAP" value="5" />
+    <option name="VARIABLE_ANNOTATION_WRAP" value="5" />
     <option name="ENUM_CONSTANTS_WRAP" value="5" />
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
     <indentOptions>

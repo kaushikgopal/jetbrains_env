@@ -1102,11 +1102,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_COMMA">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
-      </value>
-    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="969896" />
@@ -1147,16 +1142,6 @@
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="e78c45" />
-      </value>
-    </option>
-    <option name="JAVA_OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="70c0b1" />
-      </value>
-    </option>
-    <option name="JAVA_SEMICOLON">
-      <value>
-        <option name="FOREGROUND" value="cc7832" />
       </value>
     </option>
     <option name="JAVA_STRING">
@@ -2579,7 +2564,7 @@
     </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="e78c45" />
+        <option name="FOREGROUND" value="e7c547" />
       </value>
     </option>
     <option name="TYPO">

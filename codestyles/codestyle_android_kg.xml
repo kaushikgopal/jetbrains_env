@@ -360,7 +360,7 @@
           <match>
             <AND>
               <METHOD />
-              <NAME>*listener*</NAME>
+              <NAME>*Listener*</NAME>
             </AND>
           </match>
         </rule>

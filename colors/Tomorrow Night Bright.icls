@@ -598,7 +598,7 @@
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b5bd6b" />
+        <option name="FOREGROUND" value="b9ca4a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1126,7 +1126,7 @@
     </option>
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="eaeaea" />
         <option name="BACKGROUND" value="d54e53" />
         <option name="FONT_TYPE" value="1" />
       </value>
@@ -1161,8 +1161,8 @@
     </option>
     <option name="JAVA_STRING">
       <value>
-        <option name="FOREGROUND" value="b9ca4a" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="9dca4b" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">

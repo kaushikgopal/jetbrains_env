@@ -386,28 +386,12 @@
     </arrangement>
   </codeStyleSettings>
   <codeStyleSettings language="XML">
+    <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
     <arrangement>
       <rules>
-        <rule>
-          <match>
-            <AND>
-              <NAME>xmlns:android</NAME>
-              <XML_NAMESPACE>Namespace:</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>xmlns:.*</NAME>
-              <XML_NAMESPACE>Namespace:</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
         <rule>
           <match>
             <AND>
@@ -459,22 +443,6 @@
         <rule>
           <match>
             <AND>
-              <NAME>name</NAME>
-              <XML_NAMESPACE>^$</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>style</NAME>
-              <XML_NAMESPACE>^$</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
               <NAME>.*:background</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
@@ -519,7 +487,6 @@
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
-          <order>BY_NAME</order>
         </rule>
         <rule>
           <match>
@@ -528,7 +495,6 @@
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
-          <order>BY_NAME</order>
         </rule>
         <rule>
           <match>
@@ -537,7 +503,6 @@
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
-          <order>BY_NAME</order>
         </rule>
         <rule>
           <match>
@@ -546,8 +511,8 @@
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
-          <order>BY_NAME</order>
         </rule>
+
         <rule>
           <match>
             <AND>
@@ -831,14 +796,6 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:layout_gravity</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
               <NAME>.*:layout_row</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
@@ -851,15 +808,6 @@
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:layout_.*</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
         </rule>
         <rule>
           <match>
@@ -904,6 +852,14 @@
         <rule>
           <match>
             <AND>
+              <NAME>.*:gravity</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
               <NAME>.*:textSize</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
@@ -936,7 +892,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:text*</NAME>
+              <NAME>.*:text</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -944,7 +900,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:text</NAME>
+              <NAME>.*:text*</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -980,24 +936,6 @@
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*</NAME>
-              <XML_NAMESPACE>.*</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
         </rule>
       </rules>
     </arrangement>

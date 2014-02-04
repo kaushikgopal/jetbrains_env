@@ -859,7 +859,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:textSize</NAME>
+              <NAME>.*:fontFamily</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -868,6 +868,14 @@
           <match>
             <AND>
               <NAME>.*:textStyle</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:textSize</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -907,6 +915,14 @@
         <rule>
           <match>
             <AND>
+              <NAME>.*:hint</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
               <NAME>.*:contentDescription</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
@@ -915,7 +931,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:fontFamily</NAME>
+              <NAME>.*:inputType</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>

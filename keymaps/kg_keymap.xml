@@ -2,7 +2,7 @@
 <keymap version="1" name="kg_keymap" parent="Mac OS X 10.5+">
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="meta 7" />
-    <keyboard-shortcut first-keystroke="shift control R" />
+    <keyboard-shortcut first-keystroke="control meta R" />
   </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="meta alt I" />
@@ -13,6 +13,12 @@
   </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="alt F6" />
+  </action>
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt F9" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift alt F10" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt W" />
@@ -31,7 +37,12 @@
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.NextPage" />
-  <action id="DebugClass" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift F9" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift control F9" />
+  </action>
   <action id="Diff.UpdatedFiles" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
@@ -149,8 +160,17 @@
     <keyboard-shortcut first-keystroke="meta alt F" />
   </action>
   <action id="Rerun" />
+  <action id="RerunTests">
+    <keyboard-shortcut first-keystroke="shift control R" />
+  </action>
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F9" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift F10" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift control F10" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta P" />
@@ -199,5 +219,7 @@
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="Vcs.UpdateProject" />
+  <action id="tasks.switch" />
+  <action id="tasks.switch.toolbar" />
 </keymap>
 

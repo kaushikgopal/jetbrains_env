@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <code_scheme name="codestyle_android_kg">
-  <option name="FIELD_NAME_PREFIX" value="m" />
+  <option name="FIELD_NAME_PREFIX" value="_" />
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">

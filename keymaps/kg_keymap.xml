@@ -43,18 +43,34 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift control F9" />
   </action>
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
   <action id="Diff.UpdatedFiles" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="F4" />
   </action>
-  <action id="EditorCodeBlockEnd" />
-  <action id="EditorCodeBlockStart" />
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
+  </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
+  </action>
   <action id="EditorCutLineEnd" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift meta D" />
   </action>
   <action id="EditorIndentLineOrSelection">
-    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="TAB" />
   </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="shift control J" />
@@ -76,10 +92,6 @@
     <keyboard-shortcut first-keystroke="shift control DOWN" />
   </action>
   <action id="EditorUnSelectWord" />
-  <action id="EditorUnindentSelection">
-    <keyboard-shortcut first-keystroke="shift TAB" />
-    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
-  </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="meta alt CLOSE_BRACKET" />
   </action>
@@ -124,11 +136,15 @@
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta alt R" />
   </action>
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="meta T" />
+  </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta F12" />
     <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
   <action id="Images.Editor.ActualSize" />
+  <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
@@ -145,10 +161,16 @@
   <action id="MoveStatementUp" />
   <action id="NextDiff" />
   <action id="NextOccurence" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta alt P" />
   </action>
   <action id="PreviousDiff" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
   <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt F2" />

@@ -342,6 +342,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="8ac6f2" />
+        <option name="BACKGROUND" value="242424" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

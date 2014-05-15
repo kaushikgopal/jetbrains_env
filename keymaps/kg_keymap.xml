@@ -90,11 +90,11 @@
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta D" />
+    <keyboard-shortcut first-keystroke="alt UP" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift control DOWN" />
   </action>
-  <action id="EditorUnSelectWord" />
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="meta alt CLOSE_BRACKET" />
   </action>
@@ -116,7 +116,6 @@
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta B" />
-    <mouse-shortcut keystroke="meta button1" />
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="meta alt DOWN" />
   </action>

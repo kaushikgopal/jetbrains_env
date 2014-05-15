@@ -67,7 +67,7 @@
   </action>
   <action id="EditorCutLineEnd" />
   <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="shift meta D" />
+    <keyboard-shortcut first-keystroke="control D" />
   </action>
   <action id="EditorIndentLineOrSelection">
     <keyboard-shortcut first-keystroke="TAB" />

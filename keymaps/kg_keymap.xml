@@ -8,6 +8,9 @@
     <keyboard-shortcut first-keystroke="meta 7" />
     <keyboard-shortcut first-keystroke="control meta R" />
   </action>
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="meta alt S" />
+  </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="meta alt I" />
   </action>

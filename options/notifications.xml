@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
+    <notification groupId="Genymotion" displayType="NONE" />
+    <notification groupId="Genymotion settings" displayType="STICKY_BALLOON" />
+    <toolWindow group="Android Session Restarted" />
+    <toolWindow group="Find in Path" />
+    <toolWindow group="notification.group.id.gradle" />
+  </component>
+</application>
+

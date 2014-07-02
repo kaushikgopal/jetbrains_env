@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="kg_keymap" parent="Mac OS X 10.5+">
+  <action id="ActivateChangesToolWindow" />
+  <action id="ActivatePreviewToolWindow">
+    <keyboard-shortcut first-keystroke="meta 9" />
+  </action>
   <action id="ActivateStructureToolWindow">
     <keyboard-shortcut first-keystroke="meta 7" />
     <keyboard-shortcut first-keystroke="control meta R" />
@@ -59,15 +63,11 @@
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
   </action>
-  <action id="EditorCodeBlockEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta CLOSE_BRACKET" />
-  </action>
+  <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
   </action>
-  <action id="EditorCodeBlockStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta OPEN_BRACKET" />
-  </action>
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCutLineEnd" />
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="control D" />
@@ -161,17 +161,15 @@
     <keyboard-shortcut first-keystroke="control meta DOWN" />
   </action>
   <action id="MoveStatementUp" />
-  <action id="NextDiff" />
-  <action id="NextOccurence" />
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="control RIGHT" />
+  <action id="NextDiff">
+    <keyboard-shortcut first-keystroke="control DOWN" />
   </action>
+  <action id="NextOccurence" />
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta alt P" />
   </action>
-  <action id="PreviousDiff" />
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="control LEFT" />
+  <action id="PreviousDiff">
+    <keyboard-shortcut first-keystroke="control UP" />
   </action>
   <action id="Refresh" />
   <action id="RenameElement">
@@ -243,6 +241,8 @@
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="Vcs.UpdateProject" />
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>

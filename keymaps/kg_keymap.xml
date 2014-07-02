@@ -34,7 +34,7 @@
     <keyboard-shortcut first-keystroke="shift meta W" />
   </action>
   <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="meta alt OPEN_BRACKET" />
+    <keyboard-shortcut first-keystroke="meta alt MINUS" />
   </action>
   <action id="CommanderSyncViews" />
   <action id="CommentByLineComment">
@@ -99,7 +99,7 @@
     <keyboard-shortcut first-keystroke="shift control DOWN" />
   </action>
   <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="meta alt CLOSE_BRACKET" />
+    <keyboard-shortcut first-keystroke="meta alt EQUALS" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">

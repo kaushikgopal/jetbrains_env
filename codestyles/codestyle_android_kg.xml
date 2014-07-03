@@ -322,6 +322,7 @@
           <match>
             <AND>
               <METHOD />
+              <NAME>onAttach</NAME>
               <PUBLIC />
             </AND>
           </match>
@@ -330,7 +331,124 @@
           <match>
             <AND>
               <METHOD />
-              <PROTECTED />
+              <NAME>onCreate</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onCreateView</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onBind</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onActivityCreated</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onRestart</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onStart</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onStartCommand</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onResume</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onPause</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onStop</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onDestroyView</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onDestroy</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <NAME>onDetach</NAME>
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
+              <PUBLIC />
             </AND>
           </match>
         </rule>
@@ -346,32 +464,7 @@
           <match>
             <AND>
               <METHOD />
-              <NAME>*get*</NAME>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>setup*</NAME>
               <PRIVATE />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <PRIVATE />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>*Listener*</NAME>
             </AND>
           </match>
         </rule>

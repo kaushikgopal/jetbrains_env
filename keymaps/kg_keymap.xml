@@ -91,10 +91,6 @@
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="meta L" />
   </action>
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="meta D" />
-    <keyboard-shortcut first-keystroke="alt UP" />
-  </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift control DOWN" />
   </action>
@@ -199,6 +195,9 @@
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="meta D" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="meta alt F2" />

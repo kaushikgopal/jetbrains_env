@@ -456,6 +456,14 @@
           <match>
             <AND>
               <METHOD />
+              <PROTECTED />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <METHOD />
               <PACKAGE_PRIVATE />
             </AND>
           </match>

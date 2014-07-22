@@ -46,11 +46,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="ABSTRACT_METHOD_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -360,7 +355,7 @@
     </option>
     <option name="DEFAULT_METADATA">
       <value>
-        <option name="FOREGROUND" value="808080" />
+        <option name="FOREGROUND" value="f08080" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -478,12 +473,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="ENUM_NAME_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="cae682" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="bc3f3c" />
@@ -550,11 +539,6 @@
         <option name="EFFECT_COLOR" value="aeae80" />
         <option name="ERROR_STRIPE_COLOR" value="aeae80" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="INHERITED_METHOD_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -754,7 +738,8 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="a8c023" />
+        <option name="FOREGROUND" value="4b4b4b" />
+        <option name="BACKGROUND" value="a8c023" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
         <option name="EFFECT_TYPE" value="0" />

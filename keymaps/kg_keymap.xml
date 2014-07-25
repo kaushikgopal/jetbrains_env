@@ -196,6 +196,10 @@
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta P" />
   </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt F1" />
+    <keyboard-shortcut first-keystroke="shift control S" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta D" />
   </action>
@@ -205,9 +209,7 @@
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="shift F8" />
   </action>
-  <action id="ShowNavBar">
-    <keyboard-shortcut first-keystroke="shift control S" />
-  </action>
+  <action id="ShowNavBar" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="F7" />
   </action>

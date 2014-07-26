@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Android">
+  <template name="inv" value="@butterknife.InjectView(R.id.$VIEW_ID$) $VIEW_TYPE$ $VAR_NAME$;" description="InjectView Butterknife" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_ID" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>
+

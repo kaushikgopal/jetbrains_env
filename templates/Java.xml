@@ -37,5 +37,18 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="new" value="$CLAZZ$ $VAR_NAME$ = new $CLAZZ$($END$);" description="Constructor" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLAZZ" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>
 

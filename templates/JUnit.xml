@@ -41,5 +41,17 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="mo" value="org.mockito.Mockito.mock($CLAZZ$);" description="Mockito mock" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLAZZ" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>
 

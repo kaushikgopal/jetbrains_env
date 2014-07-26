@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="JUnit">
-  <template name="test3" value="public void test_$ACTION$_Should$BE_OR_NOT_BE$_$TEST_OUTCOME$() {&#10;    $END$&#10;}" description="Add a JUnit3 Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BE_OR_NOT_BE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TEST_OUTCOME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="t3" value="public void test_$P$_Should$D$_When$W$() {&#10;    $END$&#10;}" description="Add a JUnit3 Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="P" expression="&quot;PerformingThis&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="D" expression="&quot;DoesThis&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="W" expression="&quot;ThisConditionMet&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -14,10 +14,10 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="test4" value="@org.junit.Test&#10;public void test_$ACTION$_Should$BE_OR_NOT_BE$_$TEST_OUTCOME$() {&#10;    $END$&#10;}                                                                      " description="Add a JUnit 4 Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="BE_OR_NOT_BE" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TEST_OUTCOME" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="t4" value="@org.junit.Test&#10;public void $P$_Should$D$_When$W$() {&#10;    $END$&#10;}" description="Add a JUnit 4 Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="P" expression="&quot;PerformingThis&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="D" expression="&quot;DoesThis&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="W" expression="&quot;ThisConditionMet&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

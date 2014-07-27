@@ -14,7 +14,18 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ifsn" value="if(com.google.common.base.Strings.isNullOrEmpty($SELECTION$)) {&#10;    $END$&#10;}" description="check if string null or empty" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="ifsn" value="if(!com.google.common.base.Strings.isNullOrEmpty($SELECTION$)) {&#10;    $END$&#10;}" description="check if string null or empty" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="sn" value="com.google.common.base.Strings.isNullOrEmpty($SELECTION$)" description="Check if String Null or Empty" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

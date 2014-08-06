@@ -14,5 +14,30 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="bt" value="butterknife.ButterKnife.inject($TARGET$);" description="ButterKnife (inject)" toReformat="false" toShortenFQNames="true">
+    <variable name="TARGET" expression="&quot;this&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="oncl" value="@butterknife.OnClick(R.id.$RESOURCE_ID$)&#10;public void on$BUTTON_NAME$Clicked() {&#10;    $END$&#10;}" description="ButterKnife (onClick" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="RESOURCE_ID" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="BUTTON_NAME" expression="&quot;ButtonName&quot;" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>
 

@@ -82,14 +82,19 @@
     <keyboard-shortcut first-keystroke="shift control J" />
     <keyboard-shortcut first-keystroke="meta J" />
   </action>
-  <action id="EditorScrollBottom">
-    <keyboard-shortcut first-keystroke="meta DOWN" />
-  </action>
-  <action id="EditorScrollTop">
-    <keyboard-shortcut first-keystroke="meta UP" />
+  <action id="EditorMatchBrace">
+    <keyboard-shortcut first-keystroke="control M" />
   </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="meta L" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta END" />
+    <keyboard-shortcut first-keystroke="meta DOWN" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta HOME" />
+    <keyboard-shortcut first-keystroke="meta UP" />
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift control DOWN" />
@@ -244,6 +249,9 @@
     <keyboard-shortcut first-keystroke="meta F2" />
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="meta E" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />

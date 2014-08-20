@@ -169,6 +169,9 @@
     <keyboard-shortcut first-keystroke="control DOWN" />
   </action>
   <action id="NextOccurence" />
+  <action id="OpenEditorInOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="control meta K" />
+  </action>
   <action id="ParameterInfo">
     <keyboard-shortcut first-keystroke="meta alt P" />
   </action>

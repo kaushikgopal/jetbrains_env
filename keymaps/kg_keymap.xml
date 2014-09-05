@@ -18,6 +18,9 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta alt LEFT" />
   </action>
+  <action id="CallHierarchy">
+    <keyboard-shortcut first-keystroke="control H" />
+  </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="alt F6" />
   </action>
@@ -111,9 +114,6 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
-  <action id="Genymotion.gdm">
-    <keyboard-shortcut first-keystroke="control meta G" />
-  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta P" />
     <keyboard-shortcut first-keystroke="shift meta A" />
@@ -149,6 +149,9 @@
     <keyboard-shortcut first-keystroke="shift meta F12" />
     <keyboard-shortcut first-keystroke="meta alt 1" />
   </action>
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="control meta G" />
+  </action>
   <action id="Images.Editor.ActualSize" />
   <action id="Images.ShowThumbnails" />
   <action id="InsertLiveTemplate" />
@@ -156,6 +159,9 @@
   <action id="IntroduceParameter" />
   <action id="MakeStatic">
     <keyboard-shortcut first-keystroke="shift alt S" />
+  </action>
+  <action id="MethodHierarchy">
+    <keyboard-shortcut first-keystroke="control meta H" />
   </action>
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="shift alt UP" />
@@ -177,6 +183,15 @@
   </action>
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="control UP" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt SPACE" />
+    <keyboard-shortcut first-keystroke="meta Y" />
+    <keyboard-shortcut first-keystroke="F1" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="control J" />
+    <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="Refresh" />
   <action id="RenameElement">
@@ -203,6 +218,9 @@
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift meta alt G" />
   </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="alt F1" />
@@ -252,6 +270,7 @@
     <keyboard-shortcut first-keystroke="meta F2" />
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="TypeHierarchy" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta E" />
   </action>

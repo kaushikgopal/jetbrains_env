@@ -22,10 +22,11 @@
     <option name="READONLY_FRAGMENT_BACKGROUND" value="2b303b" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="c0c5ce" />
     <option name="RIGHT_MARGIN_COLOR" value="343d46" />
-    <option name="SELECTED_TEARLINE_COLOR" value="65737e" />
+    <option name="SELECTED_INDENT_GUIDE" value="bf616a" />
+    <option name="SELECTED_TEARLINE_COLOR" value="bf616a" />
     <option name="SELECTION_BACKGROUND" value="65737e" />
     <option name="SELECTION_FOREGROUND" value="eff1f5" />
-    <option name="TEARLINE_COLOR" value="eff1f5" />
+    <option name="TEARLINE_COLOR" value="4f5b66" />
     <option name="WHITESPACES" value="686a72" />
   </colors>
   <attributes>

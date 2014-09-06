@@ -415,6 +415,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="b48ead" />
+        <option name="BACKGROUND" value="222527" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -724,6 +725,7 @@
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
+        <option name="FOREGROUND" value="c0c5ce" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

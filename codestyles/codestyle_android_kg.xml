@@ -573,6 +573,14 @@
         <rule>
           <match>
             <AND>
+              <NAME>.*:layout_alignParentStart</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
               <NAME>.*:layout_alignParentLeft</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
@@ -582,14 +590,6 @@
           <match>
             <AND>
               <NAME>.*:layout_alignParentRight</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:layout_alignParentStart</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -709,7 +709,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:layout_marginEnd</NAME>
+              <NAME>.*:layout_marginStart</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -725,7 +725,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:layout_marginRight</NAME>
+              <NAME>.*:layout_marginEnd</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -733,7 +733,7 @@
         <rule>
           <match>
             <AND>
-              <NAME>.*:layout_marginStart</NAME>
+              <NAME>.*:layout_marginRight</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>
@@ -797,7 +797,23 @@
         <rule>
           <match>
             <AND>
+              <NAME>.*:paddingStart</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
               <NAME>.*:paddingLeft</NAME>
+              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <NAME>.*:paddingEnd</NAME>
               <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
             </AND>
           </match>

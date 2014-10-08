@@ -126,16 +126,6 @@
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
     <arrangement>
-      <groups>
-        <group>
-          <type>GETTERS_AND_SETTERS</type>
-          <order>KEEP</order>
-        </group>
-        <group>
-          <type>OVERRIDDEN_METHODS</type>
-          <order>KEEP</order>
-        </group>
-      </groups>
       <rules>
         <rule>
           <match>
@@ -190,23 +180,6 @@
           <match>
             <AND>
               <FIELD />
-              <FINAL />
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
               <PROTECTED />
               <STATIC />
             </AND>
@@ -216,42 +189,8 @@
           <match>
             <AND>
               <FIELD />
-              <FINAL />
-              <PROTECTED />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PROTECTED />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
               <PACKAGE_PRIVATE />
               <STATIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <FINAL />
-              <PACKAGE_PRIVATE />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <FIELD />
-              <PACKAGE_PRIVATE />
             </AND>
           </match>
         </rule>
@@ -269,7 +208,58 @@
             <AND>
               <FIELD />
               <FINAL />
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <FIELD />
+              <FINAL />
+              <PROTECTED />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <FIELD />
+              <FINAL />
+              <PACKAGE_PRIVATE />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <FIELD />
+              <FINAL />
               <PRIVATE />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <FIELD />
+              <PUBLIC />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <FIELD />
+              <PROTECTED />
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <FIELD />
+              <PACKAGE_PRIVATE />
             </AND>
           </match>
         </rule>
@@ -288,12 +278,15 @@
         </rule>
         <rule>
           <match>
-            <ENUM />
+            <CONSTRUCTOR />
           </match>
         </rule>
         <rule>
           <match>
-            <CONSTRUCTOR />
+            <AND>
+              <METHOD />
+              <STATIC />
+            </AND>
           </match>
         </rule>
         <rule>
@@ -301,132 +294,6 @@
             <AND>
               <ABSTRACT />
               <METHOD />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onAttach</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onCreate</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onCreateView</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onBind</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onActivityCreated</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onRestart</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onStart</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onStartCommand</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onResume</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onPause</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onStop</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onDestroyView</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onDestroy</NAME>
-              <PUBLIC />
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <METHOD />
-              <NAME>onDetach</NAME>
-              <PUBLIC />
             </AND>
           </match>
         </rule>
@@ -460,6 +327,11 @@
               <METHOD />
               <PRIVATE />
             </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <ENUM />
           </match>
         </rule>
         <rule>

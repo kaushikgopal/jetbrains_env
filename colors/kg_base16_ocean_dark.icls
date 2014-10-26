@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scheme name="kg_base16_ocean_dark" version="124" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="11" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_SIZE" value="11" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a3be8c" />
@@ -14,7 +16,7 @@
     <option name="FILESTATUS_MODIFIED" value="96b5b4" />
     <option name="FILESTATUS_UNKNOWN" value="ab7967" />
     <option name="GUTTER_BACKGROUND" value="222527" />
-    <option name="INDENT_GUIDE" value="" />
+    <option name="INDENT_GUIDE" value="2a2d2f" />
     <option name="LINE_NUMBERS_COLOR" value="65737e" />
     <option name="METHOD_SEPARATORS_COLOR" value="4f5b66" />
     <option name="MODIFIED_LINES_COLOR" value="4f5b66" />
@@ -22,7 +24,7 @@
     <option name="READONLY_FRAGMENT_BACKGROUND" value="2b303b" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="c0c5ce" />
     <option name="RIGHT_MARGIN_COLOR" value="343d46" />
-    <option name="SELECTED_INDENT_GUIDE" value="bf616a" />
+    <option name="SELECTED_INDENT_GUIDE" value="343d46" />
     <option name="SELECTED_TEARLINE_COLOR" value="bf616a" />
     <option name="SELECTION_BACKGROUND" value="65737e" />
     <option name="SELECTION_FOREGROUND" value="eff1f5" />
@@ -944,7 +946,7 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ab7967" />
+        <option name="FOREGROUND" value="ab3945" />
         <option name="ERROR_STRIPE_COLOR" value="ffff00" />
         <option name="EFFECT_TYPE" value="1" />
       </value>

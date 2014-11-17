@@ -29,6 +29,7 @@
   </action>
   <action id="ChooseRunConfiguration">
     <keyboard-shortcut first-keystroke="shift alt F10" />
+    <keyboard-shortcut first-keystroke="shift meta F10" />
   </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta alt W" />
@@ -157,6 +158,9 @@
   <action id="InsertLiveTemplate" />
   <action id="IntroduceField" />
   <action id="IntroduceParameter" />
+  <action id="Jdbc.OpenConsole" />
+  <action id="Jdbc.RunSqlScript" />
+  <action id="Jpa.OpenConsole" />
   <action id="MakeStatic">
     <keyboard-shortcut first-keystroke="shift alt S" />
   </action>
@@ -277,6 +281,9 @@
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="ViewToolBar">
+    <keyboard-shortcut first-keystroke="shift control T" />
+  </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>

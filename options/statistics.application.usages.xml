@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="run-configuration-type">
+      <project id="demo" values="AndroidRunConfigurationType" />
+      <project id="SampleFFmpegApp" values="AndroidRunConfigurationType" />
+      <project id="pkkandroid" values="JUnit,AndroidRunConfigurationType,AndroidTestRunConfigurationType" />
+      <project id="Day9" values="JUnit,GradleRunConfiguration,AndroidRunConfigurationType" />
+      <project id="day9" values="AndroidRunConfigurationType" />
+      <project id="ultimate" values="AndroidRunConfigurationType" />
+      <project id="Android-ImageCarousel" values="AndroidRunConfigurationType" />
+      <project id="ndktest" values="AndroidRunConfigurationType" />
+    </group>
+    <group name="language-level">
+      <project id="demo" values="JDK_1_6" />
+      <project id="app" values="JDK_1_6" />
+      <project id="android-ffmpeg-java" values="JDK_1_6" />
+      <project id="ultimate" values="JDK_1_6" />
+      <project id="Android-ImageCarousel" values="JDK_1_6" />
+      <project id="ndktest" values="JDK_1_7" />
+      <project id="SampleFFmpegApp" values="JDK_1_6" />
+      <project id="pkkandroid" values="JDK_1_7" />
+      <project id="Day9" values="JDK_1_6" />
+      <project id="cwac-camera" values="JDK_1_6" />
+      <project id="gradle" values="JDK_1_6" />
+      <project id="day9" values="JDK_1_7" />
+      <project id="sample" values="JDK_1_6" />
+    </group>
+    <group name="module type">
+      <project id="demo" values="JAVA_MODULE" />
+      <project id="app" values="JAVA_MODULE" />
+      <project id="android-ffmpeg-java" values="JAVA_MODULE" />
+      <project id="ultimate" values="JAVA_MODULE" />
+      <project id="Android-ImageCarousel" values="JAVA_MODULE" />
+      <project id="ndktest" values="JAVA_MODULE" />
+      <project id="SampleFFmpegApp" values="JAVA_MODULE" />
+      <project id="pkkandroid" values="JAVA_MODULE" />
+      <project id="Day9" values="JAVA_MODULE" />
+      <project id="cwac-camera" values="JAVA_MODULE" />
+      <project id="gradle" values="JAVA_MODULE" />
+      <project id="day9" values="JAVA_MODULE" />
+      <project id="sample" values="JAVA_MODULE" />
+    </group>
+    <group name="vcs">
+      <project id="demo" values="Git" />
+      <project id="SampleFFmpegApp" values="Git" />
+      <project id="cwac-camera" values="Git" />
+      <project id="day9" values="Git" />
+      <project id="gradle" values="Git" />
+      <project id="ultimate" values="Git" />
+      <project id="Android-ImageCarousel" values="Git" />
+    </group>
+    <group name="frameworks">
+      <project id="demo" values="android,android-gradle" />
+      <project id="SampleFFmpegApp" values="android,android-gradle,java-gradle" />
+      <project id="android-ffmpeg-java" values="android-gradle,java-gradle,android" />
+      <project id="pkkandroid" values="android,java-gradle,android-gradle" />
+      <project id="Day9" values="android-gradle,java-gradle,android" />
+      <project id="cwac-camera" values="android" />
+      <project id="day9" values="android,java-gradle,android-gradle" />
+      <project id="ultimate" values="java-gradle,android,android-gradle" />
+      <project id="Android-ImageCarousel" values="android,java-gradle,android-gradle" />
+      <project id="sample" values="android,android-gradle" />
+      <project id="ndktest" values="android,android-gradle,java-gradle" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="pkkandroid" values="JUnit,AndroidTestRunConfigurationType" />
+      <project id="Day9" values="AndroidTestRunConfigurationType" />
+      <project id="Android-ImageCarousel" values="AndroidTestRunConfigurationType" />
+    </group>
+    <group name="file-type">
+      <project id="demo" values="JAVA,Images,PLAIN_TEXT,UNKNOWN,ProGuard File,XML,ARCHIVE,Groovy,IDEA_MODULE,Properties" />
+      <project id="app" values="AIDL,PLAIN_TEXT,ARCHIVE,Groovy,UNKNOWN,JAVA,IDEA_MODULE,Images,XML,ProGuard File,CLASS" />
+      <project id="android-ffmpeg-java" values="IDEA_MODULE,XML,Groovy,UNKNOWN,Properties,JAVA,Images,ARCHIVE,PLAIN_TEXT" />
+      <project id="ultimate" values="XML,JAVA,Properties,Images,UNKNOWN,AIDL,IDEA_MODULE,PLAIN_TEXT,Groovy,ARCHIVE,ProGuard File" />
+      <project id="Android-ImageCarousel" values="ProGuard File,JAVA,Groovy,IDEA_MODULE,UNKNOWN,XML,PLAIN_TEXT,ARCHIVE,Images,Properties" />
+      <project id="ndktest" values="PLAIN_TEXT,UNKNOWN,ProGuard File,Images,IDEA_MODULE,Properties,AIDL,XML,Groovy,JAVA,ARCHIVE" />
+      <project id="SampleFFmpegApp" values="ProGuard File,C++,XML,IDEA_MODULE,PLAIN_TEXT,Groovy,JAVA,ARCHIVE,Images,Properties,UNKNOWN" />
+      <project id="pkkandroid" values="CLASS,UNKNOWN,Images,HTML,Groovy,IDEA_MODULE,Properties,JAVA,PLAIN_TEXT,ProGuard File,AIDL,ARCHIVE,XML" />
+      <project id="Day9" values="XML,JAVA,Images,PLAIN_TEXT,Properties,ARCHIVE,ProGuard File,AIDL,IDEA_MODULE,UNKNOWN,Groovy" />
+      <project id="cwac-camera" values="UNKNOWN,HTML,Images,IDEA_MODULE,JAVA,Properties,Groovy,ProGuard File,XML" />
+      <project id="gradle" values="ARCHIVE,Properties,UNKNOWN,IDEA_MODULE" />
+      <project id="day9" values="AIDL,UNKNOWN,Images,ProGuard File,CLASS,PLAIN_TEXT,XML,IDEA_MODULE,Properties,Groovy,JAVA,ARCHIVE" />
+      <project id="sample" values="PLAIN_TEXT,ProGuard File,JAVA,Images,Groovy,XML,UNKNOWN,IDEA_MODULE,Properties" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="7" />
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="130" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="988" />
+      <entry feature="execute.AndroidTestRunConfigurationType.Debug" count="4" />
+      <entry feature="execute.AndroidTestRunConfigurationType.Run" count="50" />
+      <entry feature="execute.JUnit.Debug" count="8" />
+      <entry feature="execute.JUnit.Run" count="17" />
+      <entry feature="execute.Remote.Debug" count="72" />
+      <entry feature="ide.settings.Appearance" count="6" />
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
+      <entry feature="ide.settings.Editor" count="2" />
+      <entry feature="ide.settings.Font" count="4" />
+      <entry feature="ide.settings.Java" count="3" />
+      <entry feature="ide.settings.Keymap" count="2" />
+      <entry feature="ide.settings.Language_Defaults" count="1" />
+      <entry feature="ide.settings.Smart_Keys" count="1" />
+      <entry feature="ideaapp.started" count="48" />
+    </counts>
+  </component>
+</application>
+

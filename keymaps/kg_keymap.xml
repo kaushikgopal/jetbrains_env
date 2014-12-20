@@ -164,6 +164,9 @@
   <action id="MakeStatic">
     <keyboard-shortcut first-keystroke="shift alt S" />
   </action>
+  <action id="Maven.ToggleOffline">
+    <keyboard-shortcut first-keystroke="shift control meta alt F" />
+  </action>
   <action id="MethodHierarchy">
     <keyboard-shortcut first-keystroke="control meta H" />
   </action>

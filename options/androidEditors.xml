@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="AndroidEditors">
+    <option name="state">
+      <GlobalState>
+        <option name="preferXmlEditor" value="true" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+</application>
+

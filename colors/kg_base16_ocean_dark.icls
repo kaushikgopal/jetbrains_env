@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scheme name="kg_base16_ocean_dark" version="124" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.1" />
-  <option name="EDITOR_FONT_SIZE" value="11" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="CONSOLE_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_SIZE" value="11" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="a3be8c" />
@@ -417,7 +418,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="b48ead" />
-        <option name="BACKGROUND" value="222527" />
+        <option name="BACKGROUND" value="181c23" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

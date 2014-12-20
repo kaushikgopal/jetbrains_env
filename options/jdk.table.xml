@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="Android API 17 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_71&quot;" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-17/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-17/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-17" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-17" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 19 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_71&quot;" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-19/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-19/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-19" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-19" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 20 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_71&quot;" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-20/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-20/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-20" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-20" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 20, L preview Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_71&quot;" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-L/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-L/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-L" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 21 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_71&quot;" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-21/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-21/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/tools/support/annotations.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-21" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-21" />
+    </jdk>
+    <jdk version="2">
+      <name value="1.7" />
+      <type value="JavaSDK" />
+      <version value="java version &quot;1.7.0_71&quot;" />
+      <homePath value="/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/ant-javafx.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/dt.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-doclet.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/javafx-mx.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/jconsole.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/sa-jdi.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/lib/tools.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/charsets.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/deploy.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/htmlconverter.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/javaws.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jce.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jfr.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jfxrt.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/jsse.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/management-agent.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/plugin.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/resources.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/rt.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/ext/dnsns.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/ext/localedata.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/ext/sunec.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar!/" />
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/jre/lib/ext/zipfs.jar!/" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>
+

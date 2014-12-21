@@ -8,3 +8,11 @@ Place these files in a respective relative path:
 
     ~/Library/Preferences/AndroidStudioBeta/colors
     ~/Library/Preferences/AndroidStudioBeta/codestyles
+
+
+    ln -s /Users/kaush/code/general/jetbrains_env/fileTemplates ~/Library/Preferences/AndroidStudio/
+    ln -s /Users/kaush/code/general/jetbrains_env/options ~/Library/Preferences/AndroidStudio/
+    ln -s /Users/kaush/code/general/jetbrains_env/keymaps ~/Library/Preferences/AndroidStudio/
+    ln -s /Users/kaush/code/general/jetbrains_env/templates ~/Library/Preferences/AndroidStudio/
+    ln -s /Users/kaush/code/general/jetbrains_env/colors ~/Library/Preferences/AndroidStudio/
+    ln -s /Users/kaush/code/general/jetbrains_env/codestyles ~/Library/Preferences/AndroidStudio/

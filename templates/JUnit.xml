@@ -28,7 +28,7 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="at" value="org.fest.assertions.api.Assertions.assertThat($TEST_CONDITION$).is$TEST_OUTCOME$;" description="Fest assert that assertion" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="at" value="org.assertj.core.api.Assertions.assertThat($TEST_CONDITION$).is$TEST_OUTCOME$;" description="Fest assert that assertion" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="TEST_CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TEST_OUTCOME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>

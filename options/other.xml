@@ -116,6 +116,13 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
+  <component name="FileEditorProviderManager">
+    <option name="selectedProviders">
+      <map>
+        <entry key="text-editor,android-designer" value="text-editor" />
+      </map>
+    </option>
+  </component>
   <component name="FindSettings">
     <option name="SEARCH_OVERLOADED_METHODS" value="false" />
     <option name="SEARCH_IN_LIBRARIES" value="false" />
@@ -131,7 +138,7 @@
     <option name="COMMENTS_ONLY" value="false" />
     <option name="STRING_LITERALS_ONLY" value="false" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
-    <option name="REGULAR_EXPRESSIONS" value="false" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
     <option name="WITH_SUBDIRECTORIES" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'pkkandroid'" />
@@ -139,36 +146,36 @@
     <option name="RECENT_FIND_STRINGS">
       <value>
         <list size="30">
-          <item index="0" class="java.lang.String" itemvalue="_changeCameraPreview" />
-          <item index="1" class="java.lang.String" itemvalue="USE_FRONT_CAMERA" />
-          <item index="2" class="java.lang.String" itemvalue="camera_switcher" />
-          <item index="3" class="java.lang.String" itemvalue="bundle" />
-          <item index="4" class="java.lang.String" itemvalue="getargum" />
-          <item index="5" class="java.lang.String" itemvalue="_usingFrontCamera" />
-          <item index="6" class="java.lang.String" itemvalue="swit" />
-          <item index="7" class="java.lang.String" itemvalue="_btnCameraSwitcher" />
-          <item index="8" class="java.lang.String" itemvalue="pre" />
-          <item index="9" class="java.lang.String" itemvalue="gallery" />
-          <item index="10" class="java.lang.String" itemvalue="createphotopostsfrom" />
-          <item index="11" class="java.lang.String" itemvalue="REQ_CODE_CREATE_PHOTO_POSTS_FROM_GALLERY" />
-          <item index="12" class="java.lang.String" itemvalue="postcreate" />
-          <item index="13" class="java.lang.String" itemvalue="gallerypickermana" />
-          <item index="14" class="java.lang.String" itemvalue="pick_gallery" />
-          <item index="15" class="java.lang.String" itemvalue="colo" />
-          <item index="16" class="java.lang.String" itemvalue="colorfi" />
-          <item index="17" class="java.lang.String" itemvalue="_btnShutterClick" />
-          <item index="18" class="java.lang.String" itemvalue="_btnGalleryPick" />
-          <item index="19" class="java.lang.String" itemvalue="camera_shutter_click" />
-          <item index="20" class="java.lang.String" itemvalue="CustomCameraFragment" />
-          <item index="21" class="java.lang.String" itemvalue="duration" />
-          <item index="22" class="java.lang.String" itemvalue="default" />
-          <item index="23" class="java.lang.String" itemvalue="default dur" />
-          <item index="24" class="java.lang.String" itemvalue="actionbar" />
-          <item index="25" class="java.lang.String" itemvalue="_btnClose" />
-          <item index="26" class="java.lang.String" itemvalue="onback" />
-          <item index="27" class="java.lang.String" itemvalue="onac" />
-          <item index="28" class="java.lang.String" itemvalue="oncloseclicked" />
-          <item index="29" class="java.lang.String" itemvalue="scopedBus" />
+          <item index="0" class="java.lang.String" itemvalue="progress" />
+          <item index="1" class="java.lang.String" itemvalue="useFullBleedPreview" />
+          <item index="2" class="java.lang.String" itemvalue="fullblee" />
+          <item index="3" class="java.lang.String" itemvalue="album" />
+          <item index="4" class="java.lang.String" itemvalue="selectal" />
+          <item index="5" class="java.lang.String" itemvalue="dismis" />
+          <item index="6" class="java.lang.String" itemvalue="AlbumSelectedEvent" />
+          <item index="7" class="java.lang.String" itemvalue="finishAfterAlbumSelection" />
+          <item index="8" class="java.lang.String" itemvalue="dismiss" />
+          <item index="9" class="java.lang.String" itemvalue="_cameraPhotoPost" />
+          <item index="10" class="java.lang.String" itemvalue="show" />
+          <item index="11" class="java.lang.String" itemvalue="showp" />
+          <item index="12" class="java.lang.String" itemvalue="KEY_USE_FFC" />
+          <item index="13" class="java.lang.String" itemvalue="_usingFrontCamera" />
+          <item index="14" class="java.lang.String" itemvalue="_usingFrontCameraswt" />
+          <item index="15" class="java.lang.String" itemvalue="switch" />
+          <item index="16" class="java.lang.String" itemvalue="getca" />
+          <item index="17" class="java.lang.String" itemvalue="CameraInfo" />
+          <item index="18" class="java.lang.String" itemvalue="Camera" />
+          <item index="19" class="java.lang.String" itemvalue="Camerainfo" />
+          <item index="20" class="java.lang.String" itemvalue=".getCameraInfo(" />
+          <item index="21" class="java.lang.String" itemvalue="_cameraId" />
+          <item index="22" class="java.lang.String" itemvalue="photoob" />
+          <item index="23" class="java.lang.String" itemvalue="photobooth_filter_picker" />
+          <item index="24" class="java.lang.String" itemvalue="_filterList" />
+          <item index="25" class="java.lang.String" itemvalue="layout" />
+          <item index="26" class="java.lang.String" itemvalue="guest_profile_grid" />
+          <item index="27" class="java.lang.String" itemvalue="_guestProfileGrid" />
+          <item index="28" class="java.lang.String" itemvalue="subscrib" />
+          <item index="29" class="java.lang.String" itemvalue="memberlistadap" />
         </list>
       </value>
     </option>
@@ -514,6 +521,9 @@
     <option name="recentPaths">
       <list>
         <option value="$USER_HOME$/code/pkkandroid" />
+        <option value="$USER_HOME$/code/android/_commonware/cwac-camera" />
+        <option value="$USER_HOME$/code/android/_kg/Android-RxJava" />
+        <option value="$USER_HOME$/code/java/rxjava_runner" />
         <option value="$USER_HOME$/code/android/_kg/day9" />
         <option value="$USER_HOME$/code/android/_kg/ndktest" />
         <option value="$USER_HOME$/code/android/SampleFFmpegApp" />
@@ -579,6 +589,9 @@
       <option name="ERROR_STRIPE_COLOR" value="b48ead" />
       <option name="EFFECT_TYPE" value="0" />
     </pattern>
+    <filter name="FIX">
+      <pattern index="1" />
+    </filter>
   </component>
   <component name="UpdatesConfigurable">
     <option name="myPluginHosts">
@@ -603,8 +616,8 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1419021015911" />
-    <option name="LAST_BUILD_CHECKED" value="AI-135.1641136" />
+    <option name="LAST_TIME_CHECKED" value="1421107954344" />
+    <option name="LAST_BUILD_CHECKED" value="AI-135.1653844" />
     <option name="UPDATE_CHANNEL_TYPE" value="eap" />
   </component>
   <component name="UsageViewSettings">

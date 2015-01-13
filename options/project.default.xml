@@ -50,10 +50,6 @@
         <property name="MemberChooser.sorted" value="false" />
         <property name="MemberChooser.showClasses" value="true" />
         <property name="MemberChooser.copyJavadoc" value="false" />
-        <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-        <property name="options.splitter.main.proportions" value="0.3" />
-        <property name="options.splitter.details.proportions" value="0.2" />
-        <property name="options.searchVisible" value="true" />
       </component>
       <component name="RunManager">
         <configuration default="true" type="Remote" factoryName="Remote">
@@ -142,30 +138,6 @@
           <Host>localhost</Host>
           <Port>5050</Port>
         </configuration>
-      </component>
-      <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000" />
-      </component>
-      <component name="VcsManagerConfiguration">
-        <option name="myTodoPanelSettings">
-          <TodoPanelSettings />
-        </option>
-      </component>
-      <component name="masterDetails">
-        <states>
-          <state key="ProjectJDKs.UI">
-            <settings>
-              <last-edited>1.7</last-edited>
-              <splitter-proportions>
-                <option name="proportions">
-                  <list>
-                    <option value="0.2" />
-                  </list>
-                </option>
-              </splitter-proportions>
-            </settings>
-          </state>
-        </states>
       </component>
     </defaultProject>
   </component>

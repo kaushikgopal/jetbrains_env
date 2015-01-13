@@ -58,7 +58,7 @@
         <option name="displayName" />
         <option name="index" value="0" />
         <option name="leftDetached" value="false" />
-        <option name="leftProportion" value="0.2144385" />
+        <option name="leftProportion" value="0.2576687" />
         <option name="rightDetached" value="false" />
         <option name="rightProportion" value="0.2" />
       </TabImpl>
@@ -132,9 +132,9 @@
         <option name="displayName" value="Debugger" />
         <option name="index" value="0" />
         <option name="leftDetached" value="false" />
-        <option name="leftProportion" value="0.2604278" />
+        <option name="leftProportion" value="0.14832535" />
         <option name="rightDetached" value="false" />
-        <option name="rightProportion" value="0.36898395" />
+        <option name="rightProportion" value="0.53229666" />
       </TabImpl>
       <TabImpl>
         <option name="bottomDetached" value="false" />
@@ -185,7 +185,7 @@
         <option name="leftDetached" value="false" />
         <option name="leftProportion" value="0.2" />
         <option name="rightDetached" value="false" />
-        <option name="rightProportion" value="0.43785632" />
+        <option name="rightProportion" value="0.93429697" />
       </TabImpl>
       <General>
         <option name="horizontalToolbar" value="false" />

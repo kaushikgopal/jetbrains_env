@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="StatisticsApplicationUsages">
-    <group name="run-configuration-type">
-      <project id="demo" values="AndroidRunConfigurationType" />
-      <project id="SampleFFmpegApp" values="AndroidRunConfigurationType" />
-      <project id="pkkandroid" values="JUnit,AndroidRunConfigurationType,AndroidTestRunConfigurationType" />
-      <project id="Day9" values="JUnit,GradleRunConfiguration,AndroidRunConfigurationType" />
-      <project id="day9" values="AndroidRunConfigurationType" />
-      <project id="ultimate" values="AndroidRunConfigurationType" />
-      <project id="Android-ImageCarousel" values="AndroidRunConfigurationType" />
-      <project id="ndktest" values="AndroidRunConfigurationType" />
-    </group>
     <group name="language-level">
       <project id="demo" values="JDK_1_6" />
       <project id="app" values="JDK_1_6" />
@@ -22,9 +12,32 @@
       <project id="pkkandroid" values="JDK_1_7" />
       <project id="Day9" values="JDK_1_6" />
       <project id="cwac-camera" values="JDK_1_6" />
+      <project id="rxjava_runner" values="JDK_1_8" />
       <project id="gradle" values="JDK_1_6" />
       <project id="day9" values="JDK_1_7" />
+      <project id="Android-RxJava" values="JDK_1_7" />
       <project id="sample" values="JDK_1_6" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="demo" values="AndroidRunConfigurationType" />
+      <project id="SampleFFmpegApp" values="AndroidRunConfigurationType" />
+      <project id="pkkandroid" values="AndroidRunConfigurationType,JUnit,AndroidTestRunConfigurationType" />
+      <project id="Day9" values="AndroidRunConfigurationType,JUnit,GradleRunConfiguration" />
+      <project id="day9" values="AndroidRunConfigurationType" />
+      <project id="ultimate" values="AndroidRunConfigurationType" />
+      <project id="Android-ImageCarousel" values="AndroidRunConfigurationType" />
+      <project id="Android-RxJava" values="AndroidRunConfigurationType" />
+      <project id="ndktest" values="AndroidRunConfigurationType" />
+    </group>
+    <group name="vcs">
+      <project id="demo" values="Git" />
+      <project id="SampleFFmpegApp" values="Git" />
+      <project id="cwac-camera" values="Git" />
+      <project id="rxjava_runner" values="Git" />
+      <project id="gradle" values="Git" />
+      <project id="day9" values="Git" />
+      <project id="ultimate" values="Git" />
+      <project id="Android-ImageCarousel" values="Git" />
     </group>
     <group name="module type">
       <project id="demo" values="JAVA_MODULE" />
@@ -37,73 +50,76 @@
       <project id="pkkandroid" values="JAVA_MODULE" />
       <project id="Day9" values="JAVA_MODULE" />
       <project id="cwac-camera" values="JAVA_MODULE" />
+      <project id="rxjava_runner" values="JAVA_MODULE" />
       <project id="gradle" values="JAVA_MODULE" />
       <project id="day9" values="JAVA_MODULE" />
+      <project id="Android-RxJava" values="JAVA_MODULE" />
       <project id="sample" values="JAVA_MODULE" />
-    </group>
-    <group name="vcs">
-      <project id="demo" values="Git" />
-      <project id="SampleFFmpegApp" values="Git" />
-      <project id="cwac-camera" values="Git" />
-      <project id="day9" values="Git" />
-      <project id="gradle" values="Git" />
-      <project id="ultimate" values="Git" />
-      <project id="Android-ImageCarousel" values="Git" />
     </group>
     <group name="frameworks">
       <project id="demo" values="android,android-gradle" />
-      <project id="SampleFFmpegApp" values="android,android-gradle,java-gradle" />
-      <project id="android-ffmpeg-java" values="android-gradle,java-gradle,android" />
-      <project id="pkkandroid" values="android,java-gradle,android-gradle" />
-      <project id="Day9" values="android-gradle,java-gradle,android" />
+      <project id="SampleFFmpegApp" values="java-gradle,android-gradle,android" />
+      <project id="android-ffmpeg-java" values="java-gradle,android,android-gradle" />
+      <project id="pkkandroid" values="android-gradle,android,java-gradle" />
+      <project id="Day9" values="android-gradle,android,java-gradle" />
       <project id="cwac-camera" values="android" />
-      <project id="day9" values="android,java-gradle,android-gradle" />
-      <project id="ultimate" values="java-gradle,android,android-gradle" />
-      <project id="Android-ImageCarousel" values="android,java-gradle,android-gradle" />
+      <project id="day9" values="android,android-gradle,java-gradle" />
+      <project id="ultimate" values="android-gradle,android,java-gradle" />
+      <project id="Android-RxJava" values="android-gradle,android,java-gradle" />
+      <project id="Android-ImageCarousel" values="java-gradle,android,android-gradle" />
       <project id="sample" values="android,android-gradle" />
       <project id="ndktest" values="android,android-gradle,java-gradle" />
     </group>
-    <group name="run-configuration-type-temp">
-      <project id="pkkandroid" values="JUnit,AndroidTestRunConfigurationType" />
-      <project id="Day9" values="AndroidTestRunConfigurationType" />
-      <project id="Android-ImageCarousel" values="AndroidTestRunConfigurationType" />
-    </group>
     <group name="file-type">
-      <project id="demo" values="JAVA,Images,PLAIN_TEXT,UNKNOWN,ProGuard File,XML,ARCHIVE,Groovy,IDEA_MODULE,Properties" />
-      <project id="app" values="AIDL,PLAIN_TEXT,ARCHIVE,Groovy,UNKNOWN,JAVA,IDEA_MODULE,Images,XML,ProGuard File,CLASS" />
-      <project id="android-ffmpeg-java" values="IDEA_MODULE,XML,Groovy,UNKNOWN,Properties,JAVA,Images,ARCHIVE,PLAIN_TEXT" />
-      <project id="ultimate" values="XML,JAVA,Properties,Images,UNKNOWN,AIDL,IDEA_MODULE,PLAIN_TEXT,Groovy,ARCHIVE,ProGuard File" />
-      <project id="Android-ImageCarousel" values="ProGuard File,JAVA,Groovy,IDEA_MODULE,UNKNOWN,XML,PLAIN_TEXT,ARCHIVE,Images,Properties" />
-      <project id="ndktest" values="PLAIN_TEXT,UNKNOWN,ProGuard File,Images,IDEA_MODULE,Properties,AIDL,XML,Groovy,JAVA,ARCHIVE" />
-      <project id="SampleFFmpegApp" values="ProGuard File,C++,XML,IDEA_MODULE,PLAIN_TEXT,Groovy,JAVA,ARCHIVE,Images,Properties,UNKNOWN" />
-      <project id="pkkandroid" values="CLASS,UNKNOWN,Images,HTML,Groovy,IDEA_MODULE,Properties,JAVA,PLAIN_TEXT,ProGuard File,AIDL,ARCHIVE,XML" />
-      <project id="Day9" values="XML,JAVA,Images,PLAIN_TEXT,Properties,ARCHIVE,ProGuard File,AIDL,IDEA_MODULE,UNKNOWN,Groovy" />
-      <project id="cwac-camera" values="UNKNOWN,HTML,Images,IDEA_MODULE,JAVA,Properties,Groovy,ProGuard File,XML" />
-      <project id="gradle" values="ARCHIVE,Properties,UNKNOWN,IDEA_MODULE" />
-      <project id="day9" values="AIDL,UNKNOWN,Images,ProGuard File,CLASS,PLAIN_TEXT,XML,IDEA_MODULE,Properties,Groovy,JAVA,ARCHIVE" />
-      <project id="sample" values="PLAIN_TEXT,ProGuard File,JAVA,Images,Groovy,XML,UNKNOWN,IDEA_MODULE,Properties" />
+      <project id="demo" values="UNKNOWN,IDEA_MODULE,PLAIN_TEXT,Groovy,XML,ProGuard File,ARCHIVE,Properties,Images,JAVA" />
+      <project id="app" values="UNKNOWN,CLASS,PLAIN_TEXT,ARCHIVE,Images,IDEA_MODULE,XML,Groovy,ProGuard File,JAVA,AIDL" />
+      <project id="android-ffmpeg-java" values="PLAIN_TEXT,XML,UNKNOWN,IDEA_MODULE,ARCHIVE,Images,JAVA,Properties,Groovy" />
+      <project id="ultimate" values="ProGuard File,JAVA,UNKNOWN,AIDL,PLAIN_TEXT,Groovy,Images,ARCHIVE,IDEA_MODULE,XML,Properties" />
+      <project id="Android-ImageCarousel" values="IDEA_MODULE,UNKNOWN,ProGuard File,Groovy,XML,PLAIN_TEXT,Images,JAVA,Properties,ARCHIVE" />
+      <project id="ndktest" values="PLAIN_TEXT,XML,JAVA,AIDL,IDEA_MODULE,Properties,ARCHIVE,Groovy,ProGuard File,UNKNOWN,Images" />
+      <project id="SampleFFmpegApp" values="UNKNOWN,ProGuard File,Images,ARCHIVE,Groovy,XML,JAVA,Properties,PLAIN_TEXT,IDEA_MODULE,C++" />
+      <project id="pkkandroid" values="UNKNOWN,XML,ARCHIVE,PLAIN_TEXT,AIDL,CLASS,HTML,Groovy,ProGuard File,Properties,JAVA,Images,IDEA_MODULE" />
+      <project id="Day9" values="XML,AIDL,UNKNOWN,JAVA,Groovy,IDEA_MODULE,Properties,ARCHIVE,PLAIN_TEXT,Images,ProGuard File" />
+      <project id="cwac-camera" values="Groovy,JAVA,IDEA_MODULE,ProGuard File,XML,HTML,UNKNOWN,Images,Properties" />
+      <project id="rxjava_runner" values="XML,UNKNOWN,Groovy,Properties,JAVA,IDEA_MODULE,PLAIN_TEXT" />
+      <project id="gradle" values="IDEA_MODULE,UNKNOWN,ARCHIVE,Properties" />
+      <project id="day9" values="ARCHIVE,IDEA_MODULE,Properties,JAVA,Images,Groovy,UNKNOWN,PLAIN_TEXT,XML,AIDL,CLASS,ProGuard File" />
+      <project id="Android-RxJava" values="Groovy,JAVA,UNKNOWN,AIDL,ProGuard File,Images,ARCHIVE,IDEA_MODULE,PLAIN_TEXT,Properties,XML" />
+      <project id="sample" values="XML,JAVA,UNKNOWN,Groovy,IDEA_MODULE,Images,PLAIN_TEXT,ProGuard File,Properties" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="pkkandroid" values="AndroidTestRunConfigurationType" />
+      <project id="Day9" values="AndroidTestRunConfigurationType" />
+      <project id="rxjava_runner" values="Application" />
+      <project id="Android-ImageCarousel" values="AndroidTestRunConfigurationType" />
     </group>
   </component>
   <component name="UsageTrigger">
     <counts>
       <entry feature="CreateFile.CreateFileAction" count="7" />
-      <entry feature="execute.AndroidRunConfigurationType.Debug" count="130" />
-      <entry feature="execute.AndroidRunConfigurationType.Run" count="988" />
-      <entry feature="execute.AndroidTestRunConfigurationType.Debug" count="4" />
-      <entry feature="execute.AndroidTestRunConfigurationType.Run" count="50" />
+      <entry feature="execute.AndroidRunConfigurationType.Debug" count="163" />
+      <entry feature="execute.AndroidRunConfigurationType.Run" count="1546" />
+      <entry feature="execute.AndroidTestRunConfigurationType.Debug" count="16" />
+      <entry feature="execute.AndroidTestRunConfigurationType.Run" count="101" />
+      <entry feature="execute.Application.Run" count="39" />
       <entry feature="execute.JUnit.Debug" count="8" />
-      <entry feature="execute.JUnit.Run" count="17" />
-      <entry feature="execute.Remote.Debug" count="72" />
+      <entry feature="execute.JUnit.Run" count="18" />
+      <entry feature="execute.Remote.Debug" count="108" />
       <entry feature="ide.settings.Appearance" count="6" />
+      <entry feature="ide.settings.Code_Folding" count="1" />
       <entry feature="ide.settings.Code_Style" count="1" />
       <entry feature="ide.settings.Colors_&amp;_Fonts" count="2" />
+      <entry feature="ide.settings.Console_Font" count="1" />
       <entry feature="ide.settings.Editor" count="2" />
-      <entry feature="ide.settings.Font" count="4" />
-      <entry feature="ide.settings.Java" count="3" />
-      <entry feature="ide.settings.Keymap" count="2" />
+      <entry feature="ide.settings.Font" count="16" />
+      <entry feature="ide.settings.Java" count="4" />
+      <entry feature="ide.settings.Keymap" count="6" />
       <entry feature="ide.settings.Language_Defaults" count="1" />
-      <entry feature="ide.settings.Smart_Keys" count="1" />
-      <entry feature="ideaapp.started" count="48" />
+      <entry feature="ide.settings.Live_Templates" count="1" />
+      <entry feature="ide.settings.Smart_Keys" count="3" />
+      <entry feature="ide.settings.XML" count="1" />
+      <entry feature="idea.caches.invalidated" count="3" />
+      <entry feature="ideaapp.started" count="81" />
     </counts>
   </component>
 </application>

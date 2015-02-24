@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="ActionMacroManager">
+    <macro name="toggle_clean_dev">
+      <action id="ViewStatusBar" />
+      <action id="ViewNavigationBar" />
+      <action id="ViewToolBar" />
+      <action id="HideAllWindows" />
+    </macro>
+  </component>
+</application>
+

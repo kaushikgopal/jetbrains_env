@@ -161,6 +161,9 @@
   <action id="Jdbc.OpenConsole" />
   <action id="Jdbc.RunSqlScript" />
   <action id="Jpa.OpenConsole" />
+  <action id="Macro.toggle_clean_dev">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
+  </action>
   <action id="MakeStatic">
     <keyboard-shortcut first-keystroke="shift alt S" />
   </action>

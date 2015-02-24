@@ -50,5 +50,16 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="time" value="Timber.d(&quot;Time elapsed %d&quot;, TimeUnit.MILLISECONDS.convert(System.nanoTime() - $END$startTime, TimeUnit.NANOSECONDS));" description="Time elapsed" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>
 

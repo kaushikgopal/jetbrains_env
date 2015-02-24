@@ -23,7 +23,7 @@
     <option name="IS_ALL_SOFTWRAPS_SHOWN" value="false" />
     <option name="IS_INDENT_GUIDES_SHOWN" value="true" />
     <option name="IS_ANIMATED_SCROLLING" value="true" />
-    <option name="IS_CAMEL_WORDS" value="false" />
+    <option name="IS_CAMEL_WORDS" value="true" />
     <option name="ADDITIONAL_PAGE_AT_BOTTOM" value="false" />
     <option name="IS_DND_ENABLED" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="false" />
@@ -31,7 +31,7 @@
     <option name="RENAME_VARIABLES_INPLACE" value="true" />
     <option name="PRESELECT_RENAME" value="true" />
     <option name="REFRAIN_FROM_SCROLLING" value="false" />
-    <option name="SHOW_REFORMAT_DIALOG" value="false" />
+    <option name="SHOW_REFORMAT_DIALOG" value="true" />
     <option name="SHOW_OPIMIZE_IMPORTS_DIALOG" value="true" />
   </component>
   <component name="XmlEditorOptions">

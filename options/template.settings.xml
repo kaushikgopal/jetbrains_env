@@ -2,7 +2,12 @@
 <application>
   <component name="ExportableTemplateSettings">
     <option name="deletedKeys">
-      <list />
+      <list>
+        <TemplateKey>
+          <option name="groupName" value="other" />
+          <option name="key" value="inn" />
+        </TemplateKey>
+      </list>
     </option>
   </component>
 </application>

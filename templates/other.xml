@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="other">
-  <template name="ifnn" value="if ($VAR$ != null) {&#10;$END$&#10;}" description="Inserts ''if not null'' statement" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
+  <template name="ifnn" value="if(com.micromobs.pkk.utils.CoreNullnessUtils.isNotNull($SELECTION$)) {&#10;  $END$&#10;}" description="Inserts ''if not null'' statement" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -14,7 +13,7 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ifsn" value="if(!com.google.common.base.Strings.isNullOrEmpty($SELECTION$)) {&#10;    $END$&#10;}" description="check if string null or empty" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="ifsn" value="if(com.micromobs.pkk.utils.CoreNullnessUtils.isNullOrEmpty($SELECTION$)) {&#10;    $END$&#10;}" description="check if string null or empty" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
@@ -25,7 +24,18 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="sn" value="com.google.common.base.Strings.isNullOrEmpty($SELECTION$)" description="Check if String Null or Empty" toReformat="false" toShortenFQNames="true">
+  <template name="ifn" value="if(com.micromobs.pkk.utils.CoreNullnessUtils.isNull($SELECTION$)) {&#10;  $END$&#10;}" description="Inserts ''if null'' statement" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+      <option name="GROOVY_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ifsnn" value="if(com.micromobs.pkk.utils.CoreNullnessUtils.isNotNullOrEmpty($SELECTION$)) {&#10;    $END$&#10;}" description="check if string not null or empty" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

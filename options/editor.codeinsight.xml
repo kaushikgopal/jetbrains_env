@@ -6,6 +6,7 @@
   <component name="CodeInsightSettings">
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="SURROUND_SELECTION_ON_QUOTE_TYPED" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="android.database.Observable" />
     <EXCLUDED_PACKAGE NAME="java.util.Observable" />
     <EXCLUDED_PACKAGE NAME="org.fest.assertions.api.Assertions.assertThat" />

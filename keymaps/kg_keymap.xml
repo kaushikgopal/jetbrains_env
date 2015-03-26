@@ -49,7 +49,7 @@
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.NextPage" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift F9" />
+    <keyboard-shortcut first-keystroke="shift F10" />
   </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift control F9" />
@@ -116,8 +116,8 @@
     <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
   <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="shift meta P" />
     <keyboard-shortcut first-keystroke="shift meta A" />
+    <keyboard-shortcut first-keystroke="meta P" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="meta B" />
@@ -144,7 +144,7 @@
     <keyboard-shortcut first-keystroke="meta alt R" />
   </action>
   <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="meta T" />
+    <keyboard-shortcut first-keystroke="shift control T" />
   </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="shift meta F12" />
@@ -224,13 +224,13 @@
     <keyboard-shortcut first-keystroke="F9" />
   </action>
   <action id="Run">
-    <keyboard-shortcut first-keystroke="shift F10" />
+    <keyboard-shortcut first-keystroke="shift F9" />
   </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift control F10" />
   </action>
   <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="meta P" />
+    <keyboard-shortcut first-keystroke="meta T" />
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="shift meta alt G" />
@@ -290,9 +290,6 @@
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
-  <action id="ViewToolBar">
-    <keyboard-shortcut first-keystroke="shift control T" />
-  </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>

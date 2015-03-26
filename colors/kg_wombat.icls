@@ -46,6 +46,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="ABSTRACT_METHOD_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -539,6 +544,11 @@
         <option name="EFFECT_COLOR" value="aeae80" />
         <option name="ERROR_STRIPE_COLOR" value="aeae80" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="INHERITED_METHOD_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">

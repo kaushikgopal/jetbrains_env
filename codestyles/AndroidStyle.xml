@@ -136,7 +136,6 @@
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSIGNMENT_WRAP" value="1" />
     <option name="PLACE_ASSIGNMENT_SIGN_ON_NEXT_LINE" value="true" />
-    <option name="WRAP_COMMENTS" value="true" />
     <option name="IF_BRACE_FORCE" value="3" />
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
@@ -145,6 +144,10 @@
     <indentOptions>
       <option name="TAB_SIZE" value="8" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
@@ -180,127 +183,7 @@
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
     </indentOptions>
     <arrangement>
-      <rules>
-        <rule>
-          <match>
-            <AND>
-              <NAME>xmlns:android</NAME>
-              <XML_NAMESPACE>Namespace:</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>xmlns:.*</NAME>
-              <XML_NAMESPACE>Namespace:</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:id</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:name</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>name</NAME>
-              <XML_NAMESPACE>^$</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>style</NAME>
-              <XML_NAMESPACE>^$</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*</NAME>
-              <XML_NAMESPACE>^$</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:layout_width</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:layout_height</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:layout_.*</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:width</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*:height</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*</NAME>
-              <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-        <rule>
-          <match>
-            <AND>
-              <NAME>.*</NAME>
-              <XML_NAMESPACE>.*</XML_NAMESPACE>
-            </AND>
-          </match>
-          <order>BY_NAME</order>
-        </rule>
-      </rules>
+      <rules />
     </arrangement>
   </codeStyleSettings>
 </code_scheme>

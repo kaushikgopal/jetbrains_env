@@ -134,16 +134,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.BRACE">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.BRACKET">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="ffd2a7" />
@@ -153,16 +143,6 @@
     <option name="COFFEESCRIPT.COLON">
       <value>
         <option name="FOREGROUND" value="ededed" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.COMMA">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.DOT">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -214,11 +194,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.HEREDOC_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.HEREGEX_CONTENT">
       <value>
         <option name="FOREGROUND" value="e9c062" />
@@ -231,19 +206,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.IDENTIFIER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.JAVASCRIPT_ID">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -283,19 +248,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.PARENTHESIS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.PROTOTYPE">
       <value>
         <option name="FOREGROUND" value="ffd2a7" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.RANGE">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -317,25 +272,10 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.SEMICOLON">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.SPLAT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.STRING">
       <value>
         <option name="FOREGROUND" value="9cd788" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.STRING_LITERAL">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -807,11 +747,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="DJANGO_TAG_START_END">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="DOC_COMMENT_TAG_VALUE">
       <value>
         <option name="FOREGROUND" value="3d3d3d" />
@@ -828,6 +763,11 @@
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="99cc99" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="ENUM_NAME_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -909,11 +849,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="GHERKIN_TABLE_CELL">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="GHERKIN_TABLE_HEADER_CELL">
       <value>
         <option name="FOREGROUND" value="c6c5fe" />
@@ -929,11 +864,6 @@
     <option name="GHERKIN_TAG">
       <value>
         <option name="FOREGROUND" value="cfcb90" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="GHERKIN_TEXT">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -983,38 +913,13 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="HAML_FILTER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="HAML_FILTER_CONTENT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="HAML_ID">
       <value>
         <option name="FOREGROUND" value="ffd2a7" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="HAML_LINE_CONTINUATION">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="HAML_PARENTHS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="HAML_RUBY_CODE">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="HAML_RUBY_START">
       <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
@@ -1050,16 +955,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="HAML_WS_REMOVAL">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="HAML_XHTML">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
         <option name="FOREGROUND" value="ffd7b1" />
@@ -1083,11 +978,6 @@
       <value>
         <option name="FOREGROUND" value="99cc99" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="HTML_TAG">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1167,16 +1057,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="JAVA_BRACES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JAVA_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="JAVA_COMMA">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -1199,11 +1079,6 @@
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="80807f" />
         <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="JAVA_DOT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="JAVA_INVALID_STRING_ESCAPE">
@@ -1236,11 +1111,6 @@
     <option name="JAVA_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="ededed" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JAVA_PARENTH">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1280,21 +1150,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="JS.BRACES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JS.BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JS.COMMA">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="JS.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="7c7c7c" />
@@ -1310,11 +1165,6 @@
     <option name="JS.DOC_TAG">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JS.DOT">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1388,19 +1238,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="JS.PARENTHS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="e9c062" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JS.SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1561,11 +1401,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="MACRO_PARAMETER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a6da0" />
@@ -1601,29 +1436,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="OC.BADCHARACTER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="OC.BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="7c7c7c" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="OC.BRACES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="OC.BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="OC.COMMA">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1636,11 +1451,6 @@
     <option name="OC.DIRECTIVE">
       <value>
         <option name="FOREGROUND" value="96cbfe" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="OC.DOT">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1687,19 +1497,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="OC.OPERATION_SIGN">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="OC.PARAMETER">
       <value>
         <option name="FOREGROUND" value="c6c5fe" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="OC.PARENTHS">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1712,11 +1512,6 @@
     <option name="OC.SELFSUPERTHIS">
       <value>
         <option name="FOREGROUND" value="c6c5fe" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="OC.SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1748,16 +1543,6 @@
     <option name="PHP_BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PHP_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PHP_COMMA">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1811,11 +1596,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PHP_IDENTIFIER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PHP_KEYWORD">
       <value>
         <option name="FOREGROUND" value="96cbfe" />
@@ -1841,19 +1621,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PHP_PREDEFINED SYMBOL">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
       <value>
         <option name="BACKGROUND" value="2a2d32" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PHP_SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1900,31 +1670,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PUPPET_BRACES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PUPPET_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PUPPET_CLASS">
       <value>
         <option name="FOREGROUND" value="ffffb6" />
         <option name="EFFECT_COLOR" value="ffffb6" />
         <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PUPPET_COMMA">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PUPPET_DOT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="PUPPET_ESCAPE_SEQUENCE">
@@ -1952,24 +1702,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PUPPET_PARENTH">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PUPPET_REGEX">
       <value>
         <option name="FOREGROUND" value="e9c062" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PUPPET_RESOURCE_REFERENCE">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PUPPET_SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1987,25 +1722,10 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PUPPET_VARIABLE">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PUPPET_VARIABLE_INTERPOLATION">
       <value>
         <option name="FOREGROUND" value="9cd788" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PY.BRACES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PY.BRACKETS">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2021,11 +1741,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PY.COMMA">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="ffd2a7" />
@@ -2035,11 +1750,6 @@
     <option name="PY.DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="7c7c7c" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PY.DOT">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2081,16 +1791,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PY.PARENTHS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PY.PREDEFINED_DEFINITION">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="dad085" />
@@ -2107,16 +1807,6 @@
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="99cc99" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2139,11 +1829,6 @@
     <option name="REGEXP.CHAR_CLASS">
       <value>
         <option name="FOREGROUND" value="99cc99" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="REGEXP.COMMA">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2257,54 +1942,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="RHTML_EXPRESSION_END_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RHTML_EXPRESSION_START_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RHTML_OMIT_NEW_LINE_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="RHTML_SCRIPTING_BACKGROUND_ID">
       <value>
         <option name="BACKGROUND" value="161719" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RHTML_SCRIPTLET_END_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RHTML_SCRIPTLET_START_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_BAD_CHARACTER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_COLON">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_COMMA">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2333,11 +1973,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="RUBY_DOT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="RUBY_ESCAPE_SEQUENCE">
       <value>
         <option name="FOREGROUND" value="99cc99" />
@@ -2357,20 +1992,10 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="RUBY_HASH_ASSOC">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
         <option name="FOREGROUND" value="9cd788" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_HEREDOC_ID">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2424,11 +2049,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="RUBY_NTH_REF">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="RUBY_NUMBER">
       <value>
         <option name="FOREGROUND" value="d6716f" />
@@ -2457,11 +2077,6 @@
     <option name="RUBY_REGEXP">
       <value>
         <option name="FOREGROUND" value="e9c062" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2626,11 +2241,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SLIM_CALL">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SLIM_CLASS">
       <value>
         <option name="FOREGROUND" value="ffd2a7" />
@@ -2655,11 +2265,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SLIM_FILTER_CONTENT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SLIM_ID">
       <value>
         <option name="FOREGROUND" value="ffd2a7" />
@@ -2670,21 +2275,6 @@
       <value>
         <option name="FOREGROUND" value="9cd788" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SLIM_PARENTHS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SLIM_RUBY_CODE">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SLIM_STATIC_CONTENT">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2707,11 +2297,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SLIM_TAG_START">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SMARTY_BACKGROUND">
       <value>
         <option name="BACKGROUND" value="2a2d32" />
@@ -2724,19 +2309,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SMARTY_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SMARTY_COMMENT">
       <value>
         <option name="FOREGROUND" value="7c7c7c" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SMARTY_IDENTIFIER">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2772,25 +2347,10 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SQL_BRACES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SQL_COLUMN">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_COMMA">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2800,34 +2360,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SQL_DATABASE_OBJECT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_DOT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_IDENT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_IDENT_DELIMITED">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SQL_KEYWORD">
       <value>
         <option name="FOREGROUND" value="96cbfe" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_LOCAL_ALIAS">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2838,29 +2373,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SQL_PARAMETER">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_PARENS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SQL_PROCEDURE">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_SCHEMA">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2874,11 +2389,6 @@
     <option name="SQL_SYNTETIC_ENTITY">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SQL_TABLE">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2950,19 +2460,9 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="TWIG_BRACKETS">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="TWIG_COMMENT">
       <value>
         <option name="FOREGROUND" value="7c7c7c" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="TWIG_IDENTIFIER">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -3074,17 +2574,6 @@
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="99cc99" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="XML_PROLOGUE">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="XML_TAG">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

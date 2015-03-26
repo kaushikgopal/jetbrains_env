@@ -150,6 +150,36 @@
       <additional jdk="1.7" sdk="android-21" />
     </jdk>
     <jdk version="2">
+      <name value="Android API 22 Platform" />
+      <type value="Android SDK" />
+      <version value="java version &quot;1.7.0_72&quot;" />
+      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root type="simple" url="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/androidAnnotations.jar!/" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-22/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-22/data/res" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/sources/android-22" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="1.7" sdk="android-22" />
+    </jdk>
+    <jdk version="2">
       <name value="1.7" />
       <type value="JavaSDK" />
       <version value="java version &quot;1.7.0_72&quot;" />

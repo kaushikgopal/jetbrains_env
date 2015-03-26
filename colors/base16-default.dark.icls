@@ -36,11 +36,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="ABSTRACT_METHOD_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -78,93 +73,15 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="CONSOLE_BLACK_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="5c5cff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_BLUE_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ee" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ffff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_CYAN_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="cccc" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_DARKGRAY_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="555555" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
         <option name="FOREGROUND" value="7f0000" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="CONSOLE_GRAY_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="aaaaaa" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ff00" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_GREEN_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="cd00" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ff00ff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_MAGENTA_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="cd00cd" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
         <option name="FOREGROUND" value="505050" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ff0000" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_RED_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="cd0000" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -178,18 +95,6 @@
       <value>
         <option name="FOREGROUND" value="7f00" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_WHITE_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="eaea00" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -574,11 +479,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="ENUM_NAME_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ac4142" />
@@ -675,11 +575,6 @@
         <option name="EFFECT_COLOR" value="cccccc" />
         <option name="ERROR_STRIPE_COLOR" value="ffffcc" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="INHERITED_METHOD_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -808,16 +703,6 @@
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="aa759f" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

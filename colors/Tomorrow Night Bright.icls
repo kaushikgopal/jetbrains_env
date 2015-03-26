@@ -228,11 +228,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.HEREGEX_CONTENT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="COFFEESCRIPT.HEREGEX_ID">
       <value>
         <option name="FOREGROUND" value="e7c547" />
@@ -946,11 +941,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="EL_BACKGROUND">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ENUM_CONST">
       <value>
         <option name="FOREGROUND" value="e7c547" />
@@ -1027,11 +1017,6 @@
       <value>
         <option name="FOREGROUND" value="7aa6da" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="GHERKIN_TABLE_CELL">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1283,6 +1268,12 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="JAVA_COMMA">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="969896" />
@@ -1328,6 +1319,12 @@
     <option name="JAVA_NUMBER">
       <value>
         <option name="FOREGROUND" value="e78c45" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="JAVA_SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1505,11 +1502,6 @@
       <value>
         <option name="FOREGROUND" value="969896" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="JSP_DIRECTIVE_BACKGROUND">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1820,11 +1812,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PHP_HEREDOC_CONTENT">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PHP_HEREDOC_ID">
       <value>
         <option name="FOREGROUND" value="e7c547" />
@@ -1845,11 +1832,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="PHP_MARKUP_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="PHP_NUMBER">
       <value>
         <option name="FOREGROUND" value="e78c45" />
@@ -1866,11 +1848,6 @@
       <value>
         <option name="FOREGROUND" value="7aa6da" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="PHP_SCRIPTING_BACKGROUND">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2279,11 +2256,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="RHTML_SCRIPTING_BACKGROUND_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="RHTML_SCRIPTLET_END_ID">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -2300,11 +2272,6 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="d54e53" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_COMMA">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2338,11 +2305,6 @@
       <value>
         <option name="FOREGROUND" value="e78c45" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_EXPR_IN_STRING">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2405,11 +2367,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="RUBY_LOCAL_VAR_ID">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="RUBY_METHOD_NAME">
       <value>
         <option name="FOREGROUND" value="7aa6da" />
@@ -2453,11 +2410,6 @@
       <value>
         <option name="FOREGROUND" value="d54e53" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="RUBY_SEMICOLON">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2555,21 +2507,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="SCOPE_KEY_Changed Files">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Default">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SCOPE_KEY_Ignore">
-      <value>
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="SCOPE_KEY_Non-Project Files">
       <value>
         <option name="EFFECT_TYPE" value="0" />
@@ -2599,11 +2536,6 @@
       <value>
         <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="e7c547" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="SMARTY_BACKGROUND">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2926,11 +2858,6 @@
         <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="c397d8" />
         <option name="FONT_TYPE" value="3" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="TWIG_BACKGROUND">
-      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>

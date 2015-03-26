@@ -1,0 +1,10 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>ALTER TABLE `messages` ADD COLUMN image TEXT</find>
+      <find>nessage</find>
+      <find>message</find>
+      <find>exist</find>
+    </findStrings>
+  </component>
+</application>

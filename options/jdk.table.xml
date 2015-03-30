@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="ProjectJdkTable">
     <jdk version="2">
       <name value="Android API 17 Platform" />
       <type value="Android SDK" />
       <version value="java version &quot;1.7.0_72&quot;" />
-      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -14,18 +13,18 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-17/android.jar!/" />
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-17/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-17/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-17/data/res" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
           </root>
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/sources/android-17" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-17" />
           </root>
         </sourcePath>
       </roots>
@@ -35,7 +34,7 @@
       <name value="Android API 19 Platform" />
       <type value="Android SDK" />
       <version value="java version &quot;1.7.0_72&quot;" />
-      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -44,18 +43,18 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-19/android.jar!/" />
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-19/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-19/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-19/data/res" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
           </root>
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/sources/android-19" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-19" />
           </root>
         </sourcePath>
       </roots>
@@ -65,7 +64,7 @@
       <name value="Android API 20 Platform" />
       <type value="Android SDK" />
       <version value="java version &quot;1.7.0_72&quot;" />
-      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -74,18 +73,18 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-20/android.jar!/" />
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-20/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-20/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-20/data/res" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
           </root>
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/sources/android-20" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-20" />
           </root>
         </sourcePath>
       </roots>
@@ -95,7 +94,7 @@
       <name value="Android API 20, L preview Platform" />
       <type value="Android SDK" />
       <version value="java version &quot;1.7.0_72&quot;" />
-      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -104,13 +103,13 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-L/android.jar!/" />
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-L/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-L/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-L/data/res" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
           </root>
         </javadocPath>
         <sourcePath>
@@ -123,7 +122,7 @@
       <name value="Android API 21 Platform" />
       <type value="Android SDK" />
       <version value="java version &quot;1.7.0_72&quot;" />
-      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -132,18 +131,18 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-21/android.jar!/" />
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-21/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-21/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-21/data/res" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
           </root>
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/sources/android-21" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-21" />
           </root>
         </sourcePath>
       </roots>
@@ -153,7 +152,7 @@
       <name value="Android API 22 Platform" />
       <type value="Android SDK" />
       <version value="java version &quot;1.7.0_72&quot;" />
-      <homePath value="$USER_HOME$/Library/android-sdk" />
+      <homePath value="$USER_HOME$/Library/Android/sdk" />
       <roots>
         <annotationsPath>
           <root type="composite">
@@ -162,18 +161,18 @@
         </annotationsPath>
         <classPath>
           <root type="composite">
-            <root type="simple" url="jar://$USER_HOME$/Library/android-sdk/platforms/android-22/android.jar!/" />
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/platforms/android-22/data/res" />
+            <root type="simple" url="jar://$USER_HOME$/Library/Android/sdk/platforms/android-22/android.jar!/" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/platforms/android-22/data/res" />
           </root>
         </classPath>
         <javadocPath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/docs/reference" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/docs/reference" />
           </root>
         </javadocPath>
         <sourcePath>
           <root type="composite">
-            <root type="simple" url="file://$USER_HOME$/Library/android-sdk/sources/android-22" />
+            <root type="simple" url="file://$USER_HOME$/Library/Android/sdk/sources/android-22" />
           </root>
         </sourcePath>
       </roots>
@@ -232,4 +231,3 @@
     </jdk>
   </component>
 </application>
-

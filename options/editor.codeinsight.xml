@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="CodeFoldingSettings">
     <option name="COLLAPSE_DOC_COMMENTS" value="true" />
@@ -11,15 +10,8 @@
     <EXCLUDED_PACKAGE NAME="java.util.Observable" />
     <EXCLUDED_PACKAGE NAME="org.fest.assertions.api.Assertions.assertThat" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings" profile="Default">
-    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="true" />
-    <option name="AUTOREPARSE_DELAY" value="300" />
-    <option name="SHOW_ADD_IMPORT_HINTS" value="true" />
-    <option name="NO_AUTO_IMPORT_PATTERN" value="[a-z].?" />
-    <option name="SUPPRESS_WARNINGS" value="true" />
-    <option name="SHOW_METHOD_SEPARATORS" value="false" />
+  <component name="DaemonCodeAnalyzerSettings">
     <option name="ERROR_STRIPE_MARK_MIN_HEIGHT" value="3" />
-    <option name="SHOW_SMALL_ICONS_IN_GUTTER" value="true" />
   </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAnonymousClasses" value="true" />
@@ -28,4 +20,3 @@
     <option name="COLLAPSE_ANONYMOUS_CLASSES" value="true" />
   </component>
 </application>
-

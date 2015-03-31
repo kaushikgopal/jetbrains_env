@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <code_scheme name="codestyle_android_kg">
   <option name="FIELD_NAME_PREFIX" value="_" />
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="999" />
@@ -94,6 +93,7 @@
     <option name="PARENT_SETTINGS_INSTALLED" value="true" />
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="KEEP_LINE_BREAKS" value="false" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_CONTROL_STATEMENT_IN_ONE_LINE" value="false" />
@@ -155,4 +155,3 @@
     </arrangement>
   </codeStyleSettings>
 </code_scheme>
-

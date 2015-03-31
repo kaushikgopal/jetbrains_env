@@ -5,6 +5,9 @@
       <find>nessage</find>
       <find>message</find>
       <find>exist</find>
+      <find>timber.plan</find>
+      <find>Timber.plant</find>
+      <find>mDatabaseHelper</find>
     </findStrings>
   </component>
 </application>

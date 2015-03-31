@@ -300,19 +300,19 @@
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.-568.-1440.2560.1440" width="2354" height="757" />
     <size key="OptionsEditor.0.0.1920.1200" width="952" height="583" />
     <size key="DebuggerActiveHint.0.0.1680.1050" width="553" height="430" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2560" height="316" />
-    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2560" height="316" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2560" height="387" />
     <size key="StructurePopup.0.0.2560.1440" width="472" height="441" />
-    <size key="GridCell.Tab.2.left.0.0.2560.1440" width="2560" height="355" />
-    <size key="GridCell.Tab.2.center.0.0.2560.1440" width="2560" height="355" />
-    <size key="GridCell.Tab.2.right.0.0.2560.1440" width="2560" height="355" />
-    <size key="GridCell.Tab.2.bottom.0.0.2560.1440" width="2560" height="355" />
+    <size key="GridCell.Tab.2.left.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.2.center.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.2.right.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.2.bottom.0.0.2560.1440" width="2560" height="387" />
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.2560.1440" width="2350" height="1211" />
     <size key="javadoc.popup.0.0.2560.1440" width="500" height="124" />
     <size key="GridCell.Tab.0.left.-295.-1080.1920.1080" width="0" height="0" />
@@ -333,10 +333,10 @@
     <size key="ProcessPopupWindow.0.0.1680.1050" width="199" height="105" />
     <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.2560.1440" width="553" height="249" />
     <size key="NewModule_or_Project.wizard.0.0.2560.1440" width="837" height="488" />
-    <size key="GridCell.Tab.3.left.0.0.2560.1440" width="2560" height="355" />
-    <size key="GridCell.Tab.3.center.0.0.2560.1440" width="2560" height="355" />
-    <size key="GridCell.Tab.3.right.0.0.2560.1440" width="2560" height="355" />
-    <size key="GridCell.Tab.3.bottom.0.0.2560.1440" width="2560" height="355" />
+    <size key="GridCell.Tab.3.left.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.3.center.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.3.right.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.3.bottom.0.0.2560.1440" width="2560" height="387" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
     <extendedState key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" state="0" />
     <extendedState key="dock-window-1" state="0" />

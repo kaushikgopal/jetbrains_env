@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="kg_keymap" parent="Mac OS X 10.5+">
   <action id="ActivateChangesToolWindow" />
   <action id="ActivatePreviewToolWindow">
@@ -40,6 +39,7 @@
   <action id="CollapseAllRegions">
     <keyboard-shortcut first-keystroke="meta alt MINUS" />
   </action>
+  <action id="CollapseRegionRecursively" />
   <action id="CommanderSyncViews" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta SLASH" />
@@ -293,4 +293,3 @@
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>
-

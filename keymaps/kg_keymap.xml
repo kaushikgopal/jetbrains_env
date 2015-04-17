@@ -249,6 +249,9 @@
     <keyboard-shortcut first-keystroke="shift F8" />
   </action>
   <action id="ShowNavBar" />
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift meta L" />
+  </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="F7" />
   </action>

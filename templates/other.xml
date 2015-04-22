@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="other">
   <template name="ifnn" value="if(com.micromobs.pkk.utils.CoreNullnessUtils.isNotNull($SELECTION$)) {&#10;  $END$&#10;}" description="Inserts ''if not null'' statement" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
@@ -47,4 +46,3 @@
     </context>
   </template>
 </templateSet>
-

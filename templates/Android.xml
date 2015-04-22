@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Android">
   <template name="inv" value="@butterknife.InjectView(R.id.$VIEW_ID$) $VIEW_TYPE$ $VAR_NAME$;" description="InjectView Butterknife" toReformat="false" toShortenFQNames="true">
     <variable name="VIEW_ID" expression="complete()" defaultValue="" alwaysStopAt="true" />
@@ -62,4 +61,3 @@
     </context>
   </template>
 </templateSet>
-

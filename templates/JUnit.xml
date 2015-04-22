@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="JUnit">
   <template name="t3" value="public void test_$P$_Should$D$_When$W$() {&#10;    $END$&#10;}" description="Add a JUnit3 Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="P" expression="&quot;PerformingThis&quot;" defaultValue="" alwaysStopAt="true" />
@@ -54,4 +53,3 @@
     </context>
   </template>
 </templateSet>
-

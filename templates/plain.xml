@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="plain">
   <template name="st" value="String " description="String" toReformat="false" toShortenFQNames="true">
     <context>
@@ -13,4 +12,3 @@
     </context>
   </template>
 </templateSet>
-

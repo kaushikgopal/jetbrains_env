@@ -60,4 +60,22 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="gone" value="$VIEW$.setVisibility(View.GONE);" description="Set view visibility to GONE" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="visible" value="$VIEW$.setVisibility(View.VISIBLE);" description="Set view visibility to VISIBLE" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>

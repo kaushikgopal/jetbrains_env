@@ -248,7 +248,9 @@
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="shift F8" />
   </action>
-  <action id="ShowNavBar" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="shift control N" />
+  </action>
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta L" />
   </action>

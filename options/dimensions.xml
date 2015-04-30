@@ -18,7 +18,7 @@
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1680.1050" x="302" y="197" />
     <location key="AndroidCreateXmlResourceDialog.0.0.1680.1050" x="426" y="197" />
     <location key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.0.0.1680.1050" x="495" y="289" />
-    <location key="WELCOME_SCREEN.0.0.1680.1050" x="838" y="510" />
+    <location key="WELCOME_SCREEN.0.0.1680.1050" x="840" y="300" />
     <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1680.1050" x="633" y="420" />
     <location key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1680.1050" x="426" y="197" />
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.1680.1050" x="576" y="289" />
@@ -155,7 +155,7 @@
     <location key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog.0.0.2560.1440" x="1044" y="586" />
     <location key="StructurePopup.0.0.2560.1440" x="1051" y="500" />
     <location key="AndroidProcessChooserDialog.0.0.2560.1440" x="1141" y="519" />
-    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.2560.1440" x="103" y="126" />
+    <location key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.2560.1440" x="57" y="32" />
     <location key="chooseDestDirectoryDialog.0.0.2560.1440" x="1073" y="516" />
     <location key="com.intellij.testIntegration.createTest.CreateTestDialog.0.0.2560.1440" x="962" y="489" />
     <location key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog.0.0.2560.1440" x="990" y="494" />
@@ -164,13 +164,13 @@
     <location key="AndroidDeviceChooserDialog.0.0.2560.1440" x="933" y="582" />
     <location key="extract.method.dialog.0.0.2560.1440" x="607" y="443" />
     <location key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog.0.0.2560.1440" x="896" y="565" />
-    <location key="WELCOME_SCREEN.0.0.2560.1440" x="1005" y="670" />
+    <location key="WELCOME_SCREEN.0.0.2560.1440" x="1280" y="300" />
     <location key="#com.intellij.ide.util.MemberChooser.0.0.2560.1440" x="873" y="460" />
     <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$1.0.0.2560.1440" x="565" y="502" />
     <location key="DiffWindow.0.0.2560.1440" x="103" y="126" />
     <location key="findTextDialog.0.0.2560.1440" x="1006" y="483" />
-    <location key="AndroidExtendedDeviceChooserDialog.0.0.2560.1440" x="899" y="481" />
-    <location key="ProcessPopupWindow.0.0.2560.1440" x="1812" y="1306" />
+    <location key="AndroidExtendedDeviceChooserDialog.0.0.2560.1440" x="1153" y="492" />
+    <location key="ProcessPopupWindow.0.0.2560.1440" x="1812" y="1268" />
     <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.2560.1440" x="985" y="441" />
     <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.2560.1440" x="1027" y="514" />
     <location key="AndroidCreateResourceFileDialog.0.0.2560.1440" x="744" y="492" />
@@ -188,20 +188,24 @@
     <location key="ReplaceDuplicatesPrompt.0.0.2560.1440" x="1083" y="655" />
     <location key="NewModule_or_Project.wizard.0.0.2560.1440" x="1070" y="578" />
     <location key="#Updates.0.0.2560.1440" x="873" y="629" />
-    <location key="SettingsEditor.0.0.2560.1440" x="804" y="373" />
-    <size key="GridCell.Tab.0.left.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.0.center.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.0.right.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.0.bottom.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1680" height="306" />
-    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1680" height="306" />
+    <location key="SettingsEditor.0.0.2560.1440" x="343" y="277" />
+    <location key="DiffContextDialog.0.0.2560.1440" x="101" y="123" />
+    <location key="WELCOME_SCREEN.-295.-1080.1920.1080" x="628" y="511" />
+    <location key="AndroidCreateResourceDirectoryDialog.0.0.2560.1440" x="614" y="490" />
+    <location key="SettingsEditor.0.0.1680.1050" x="321" y="196" />
+    <size key="GridCell.Tab.0.left.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.0.center.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.0.right.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.0.bottom.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1638" height="291" />
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.1680.1050" width="1476" height="827" />
-    <size key="GridCell.Tab.2.left.0.0.1680.1050" width="1680" height="218" />
-    <size key="GridCell.Tab.2.center.0.0.1680.1050" width="1680" height="218" />
-    <size key="GridCell.Tab.2.right.0.0.1680.1050" width="1680" height="218" />
-    <size key="GridCell.Tab.2.bottom.0.0.1680.1050" width="1680" height="218" />
+    <size key="GridCell.Tab.2.left.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.2.center.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.2.right.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.2.bottom.0.0.1680.1050" width="1638" height="291" />
     <size key="StructurePopup.0.0.1680.1050" width="472" height="441" />
     <size key="OptionsEditor.0.0.1680.1050" width="1196" height="758" />
     <size key="javadoc.popup.0.0.1680.1050" width="500" height="124" />
@@ -300,21 +304,21 @@
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.-568.-1440.2560.1440" width="2354" height="757" />
     <size key="OptionsEditor.0.0.1920.1200" width="952" height="583" />
     <size key="DebuggerActiveHint.0.0.1680.1050" width="553" height="430" />
-    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2512" height="273" />
     <size key="StructurePopup.0.0.2560.1440" width="472" height="441" />
-    <size key="GridCell.Tab.2.left.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.2.center.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.2.right.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.2.bottom.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.2.left.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.2.center.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.2.right.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.2.bottom.0.0.2560.1440" width="2512" height="273" />
     <size key="com.intellij.history.integration.ui.views.FileHistoryDialog.0.0.2560.1440" width="2350" height="1211" />
-    <size key="javadoc.popup.0.0.2560.1440" width="500" height="124" />
+    <size key="javadoc.popup.0.0.2560.1440" width="757" height="320" />
     <size key="GridCell.Tab.0.left.-295.-1080.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.center.-295.-1080.1920.1080" width="0" height="0" />
     <size key="GridCell.Tab.0.right.-295.-1080.1920.1080" width="0" height="0" />
@@ -331,16 +335,24 @@
     <size key="ProcessPopupWindow.0.0.2560.1440" width="199" height="105" />
     <size key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog.0.0.2560.1440" width="2356" height="1217" />
     <size key="ProcessPopupWindow.0.0.1680.1050" width="199" height="105" />
-    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.2560.1440" width="553" height="249" />
+    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes.0.0.2560.1440" width="553" height="274" />
     <size key="NewModule_or_Project.wizard.0.0.2560.1440" width="837" height="488" />
-    <size key="GridCell.Tab.3.left.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.3.center.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.3.right.0.0.2560.1440" width="2560" height="387" />
-    <size key="GridCell.Tab.3.bottom.0.0.2560.1440" width="2560" height="387" />
+    <size key="GridCell.Tab.3.left.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.3.center.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.3.right.0.0.2560.1440" width="2512" height="273" />
+    <size key="GridCell.Tab.3.bottom.0.0.2560.1440" width="2512" height="273" />
+    <size key="SettingsEditor.0.0.2560.1440" width="1335" height="1010" />
+    <size key="DiffContextDialog.0.0.2560.1440" width="2268" height="1213" />
+    <size key="GridCell.Tab.3.left.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.3.center.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.3.right.0.0.1680.1050" width="1638" height="291" />
+    <size key="GridCell.Tab.3.bottom.0.0.1680.1050" width="1638" height="291" />
+    <size key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages.0.0.2560.1440" width="468" height="221" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog" state="0" />
     <extendedState key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" state="0" />
     <extendedState key="dock-window-1" state="0" />
     <extendedState key="DiffWindow" state="0" />
+    <extendedState key="DiffContextDialog" state="0" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.1" state="500" />
     <extendedState key="com.intellij.history.integration.ui.views.FileHistoryDialog.0" state="300" />
   </component>

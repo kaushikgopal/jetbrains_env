@@ -1,13 +1,36 @@
 <application>
   <component name="FindRecents">
     <findStrings>
-      <find>ALTER TABLE `messages` ADD COLUMN image TEXT</find>
-      <find>nessage</find>
-      <find>message</find>
-      <find>exist</find>
-      <find>timber.plan</find>
-      <find>Timber.plant</find>
-      <find>mDatabaseHelper</find>
+      <find>_adapter</find>
+      <find>okhtt</find>
+      <find>OkHttpClient</find>
+      <find>_cameraProcessProgress</find>
+      <find>retake</find>
+      <find>item</find>
+      <find>setmax</find>
+      <find>word</find>
+      <find>setclick</find>
+      <find>roundcorn</find>
+      <find>_arrow</find>
+      <find>arrow.</find>
+      <find>onclick</find>
+      <find>error</find>
+      <find>other</find>
+      <find>cali</find>
+      <find>cal</find>
+      <find>font</find>
+      <find>fontpath</find>
+      <find>fontp</find>
+      <find>bold</find>
+      <find>support</find>
+      <find>gson</find>
+      <find>cameraimageviewp</find>
+      <find>CameraImagePreviewFragment</find>
+      <find>_getCustomCameraFragment</find>
+      <find>getargument</find>
+      <find>clampdim</find>
+      <find>_clampDimensions</find>
+      <find>cla</find>
     </findStrings>
   </component>
 </application>

@@ -1,4 +1,4 @@
-<scheme name="Classic Eclipse" version="124" parent_scheme="Default">
+<scheme name="Classic Eclipse" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
@@ -83,8 +83,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="589df6" />
-        <option name="EFFECT_COLOR" value="589df6" />
+        <option name="FOREGROUND" value="ff" />
+        <option name="EFFECT_COLOR" value="ff" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -423,13 +423,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="ERRORS_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
-        <option name="ERROR_STRIPE_COLOR" value="ff0000" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
@@ -602,13 +595,6 @@
         <option name="FOREGROUND" value="bbbbbb" />
         <option name="BACKGROUND" value="2b2b2b" />
         <option name="EFFECT_COLOR" value="808080" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="WARNING_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="f6ebbc" />
-        <option name="ERROR_STRIPE_COLOR" value="ffff00" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>

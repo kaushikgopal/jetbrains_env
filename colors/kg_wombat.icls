@@ -115,13 +115,6 @@
         <option name="FOREGROUND" value="99968b" />
       </value>
     </option>
-    <option name="CTRL_CLICKABLE">
-      <value>
-        <option name="FOREGROUND" value="ff" />
-        <option name="EFFECT_COLOR" value="ff" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />

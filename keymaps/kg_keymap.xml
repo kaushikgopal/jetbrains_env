@@ -105,6 +105,7 @@
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="meta alt EQUALS" />
   </action>
+  <action id="ExpandRegionRecursively" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta F12" />

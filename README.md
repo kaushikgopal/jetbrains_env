@@ -15,7 +15,6 @@ Place these files in a respective relative path:
 
 
     ln -s ~/code/general/jetbrains_env/fileTemplates ~/Library/Preferences/AndroidStudio/
-    ln -s ~/code/general/jetbrains_env/options ~/Library/Preferences/AndroidStudio/
     ln -s ~/code/general/jetbrains_env/keymaps ~/Library/Preferences/AndroidStudio/
     ln -s ~/general/jetbrains_env/templates ~/Library/Preferences/AndroidStudio/
     ln -s ~/general/jetbrains_env/colors ~/Library/Preferences/AndroidStudio/

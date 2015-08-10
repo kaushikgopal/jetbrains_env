@@ -115,6 +115,9 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta alt RIGHT" />
   </action>
+  <action id="Git.ResolveConflicts">
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta A" />
     <keyboard-shortcut first-keystroke="meta P" />

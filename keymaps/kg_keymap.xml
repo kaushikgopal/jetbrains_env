@@ -198,6 +198,9 @@
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="control UP" />
   </action>
+  <action id="QuickEvaluateExpression">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt SPACE" />
     <keyboard-shortcut first-keystroke="meta Y" />
@@ -289,6 +292,7 @@
     <keyboard-shortcut first-keystroke="meta F2" />
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleTemporaryLineBreakpoint" />
   <action id="TypeHierarchy" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta E" />
@@ -296,6 +300,9 @@
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="meta alt F8" />
+  </action>
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>

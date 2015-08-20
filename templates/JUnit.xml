@@ -27,7 +27,7 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="at" value="org.assertj.core.api.Assertions.assertThat($TEST_CONDITION$).is$TEST_OUTCOME$;" description="Fest assert that assertion" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="at" value="com.google.common.truth.Truth.assertThat($TEST_CONDITION$).is$TEST_OUTCOME$;" description="assert that assertion" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="TEST_CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TEST_OUTCOME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -42,6 +42,17 @@
   </template>
   <template name="mo" value="org.mockito.Mockito.mock($CLAZZ$);" description="Mockito mock" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="CLAZZ" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="ign" value="@org.junit.Ignore" description="@Ignore" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

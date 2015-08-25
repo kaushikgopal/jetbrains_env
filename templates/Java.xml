@@ -72,7 +72,7 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="log" value="ILLog.d(&quot;kg&quot;, String.format(&quot;---- %s&quot;, $END$));" description="Debug log" toReformat="true" toShortenFQNames="true">
+  <template name="log" value="ILLog.df(&quot;kg&quot;, String.format(&quot;---- %s&quot;, $END$));" description="Debug log" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

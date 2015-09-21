@@ -2,7 +2,8 @@
   <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
-  <option name="CONSOLE_FONT_SIZE" value="11" />
+  <option name="CONSOLE_FONT_SIZE" value="13" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_NAME" value="Fira Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="81d27d" />
@@ -11,10 +12,11 @@
     <option name="CARET_ROW_COLOR" value="26293a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="" />
     <option name="DELETED_LINES_COLOR" value="c0c5ce" />
-    <option name="FILESTATUS_ADDED" value="8fa1b3" />
+    <option name="FILESTATUS_ADDED" value="81d27d" />
     <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="ab7967" />
-    <option name="FILESTATUS_MODIFIED" value="96b5b4" />
+    <option name="FILESTATUS_MODIFIED" value="4d9cee" />
     <option name="FILESTATUS_UNKNOWN" value="ab7967" />
+    <option name="FILESTATUS_changelistConflict" value="f64549" />
     <option name="GUTTER_BACKGROUND" value="252b36" />
     <option name="INDENT_GUIDE" value="2a2d2f" />
     <option name="LINE_NUMBERS_COLOR" value="404254" />
@@ -26,7 +28,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="343d46" />
     <option name="SELECTED_INDENT_GUIDE" value="2e303a" />
     <option name="SELECTED_TEARLINE_COLOR" value="e06c75" />
-    <option name="SELECTION_BACKGROUND" value="2f3440" />
+    <option name="SELECTION_BACKGROUND" value="484e5b" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="TEARLINE_COLOR" value="4f5b66" />
     <option name="WHITESPACES" value="1e242f" />
@@ -629,7 +631,7 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="f64549" />
+        <option name="FOREGROUND" value="f6673b" />
         <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="ebc700" />
         <option name="EFFECT_TYPE" value="1" />

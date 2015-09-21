@@ -45,7 +45,7 @@
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="77afe1" />
+        <option name="FOREGROUND" value="81d27d" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -229,7 +229,7 @@
     </option>
     <option name="DEFAULT_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="af87ff" />
+        <option name="FOREGROUND" value="4d9cee" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -293,7 +293,7 @@
     </option>
     <option name="DEFAULT_TAG">
       <value>
-        <option name="FOREGROUND" value="af87ff" />
+        <option name="FOREGROUND" value="4d9cee" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
@@ -506,6 +506,11 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="d1c274" />
+      </value>
+    </option>
+    <option name="METHOD_DECLARATION_ATTRIBUTES">
+      <value>
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="Map key">

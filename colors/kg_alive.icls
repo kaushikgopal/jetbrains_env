@@ -1,8 +1,6 @@
 <scheme name="kg_alive" version="141" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="CONSOLE_FONT_NAME" value="Consolas" />
-  <option name="CONSOLE_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Fira Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="81d27d" />
@@ -23,7 +21,7 @@
     <option name="MODIFIED_LINES_COLOR" value="4f5b66" />
     <option name="NOTIFICATION_BACKGROUND" value="343d46" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="2b303b" />
-    <option name="RECURSIVE_CALL_ATTRIBUTES" value="c0c5ce" />
+    <option name="RECURSIVE_CALL_ATTRIBUTES" value="70748a" />
     <option name="RIGHT_MARGIN_COLOR" value="343d46" />
     <option name="SELECTED_INDENT_GUIDE" value="2e303a" />
     <option name="SELECTED_TEARLINE_COLOR" value="e06c75" />
@@ -518,6 +516,11 @@
     <option name="Map key">
       <value>
         <option name="FOREGROUND" value="a3be8c" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="70748a" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">

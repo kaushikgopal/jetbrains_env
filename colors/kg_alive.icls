@@ -229,6 +229,7 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="4d9cee" />
+        <option name="BACKGROUND" value="252b36" />
       </value>
     </option>
     <option name="DEFAULT_LABEL">
@@ -598,6 +599,7 @@
       <value>
         <option name="FOREGROUND" value="b8c4ca" />
         <option name="BACKGROUND" value="252b36" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -655,6 +657,8 @@
       <value>
         <option name="FOREGROUND" value="f64549" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="f64549" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_NS_PREFIX">

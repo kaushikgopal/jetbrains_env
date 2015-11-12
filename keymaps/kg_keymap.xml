@@ -10,6 +10,9 @@
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="meta alt S" />
   </action>
+  <action id="AndroidConnectDebuggerAction">
+    <keyboard-shortcut first-keystroke="alt F8" />
+  </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="meta alt I" />
   </action>
@@ -102,6 +105,7 @@
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift control DOWN" />
   </action>
+  <action id="EvaluateExpression" />
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="meta alt EQUALS" />
   </action>
@@ -126,6 +130,11 @@
     <keyboard-shortcut first-keystroke="meta B" />
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="meta alt DOWN" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="meta alt B" />
+    <mouse-shortcut keystroke="meta alt button1" />
+    <keyboard-shortcut first-keystroke="meta alt UP" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt G" />
@@ -189,6 +198,7 @@
     <keyboard-shortcut first-keystroke="control DOWN" />
   </action>
   <action id="NextOccurence" />
+  <action id="NextProjectWindow" />
   <action id="OpenEditorInOppositeTabGroup">
     <keyboard-shortcut first-keystroke="control meta K" />
   </action>
@@ -198,6 +208,7 @@
   <action id="PreviousDiff">
     <keyboard-shortcut first-keystroke="control UP" />
   </action>
+  <action id="PreviousOccurence" />
   <action id="QuickEvaluateExpression">
     <mouse-shortcut keystroke="alt button1" />
   </action>
@@ -287,6 +298,11 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="control TAB" />
+    <keyboard-shortcut first-keystroke="shift control TAB" />
+    <keyboard-shortcut first-keystroke="meta BACK_QUOTE" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="meta F2" />

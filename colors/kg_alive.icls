@@ -1,6 +1,8 @@
-<scheme name="kg_alive" version="141" parent_scheme="Default">
+<scheme name="kg_alive" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
+  <option name="CONSOLE_FONT_NAME" value="Fira Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Fira Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="81d27d" />
@@ -16,7 +18,7 @@
     <option name="FILESTATUS_changelistConflict" value="f64549" />
     <option name="GUTTER_BACKGROUND" value="252b36" />
     <option name="INDENT_GUIDE" value="2a2d2f" />
-    <option name="LINE_NUMBERS_COLOR" value="404254" />
+    <option name="LINE_NUMBERS_COLOR" value="4d9cee" />
     <option name="METHOD_SEPARATORS_COLOR" value="31344a" />
     <option name="MODIFIED_LINES_COLOR" value="4f5b66" />
     <option name="NOTIFICATION_BACKGROUND" value="343d46" />

@@ -170,6 +170,16 @@
       <option name="CONTINUATION_INDENT_SIZE" value="6" />
     </indentOptions>
     <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
       <rules>
         <section>
           <rule>
@@ -300,9 +310,9 @@
           <rule>
             <match>
               <AND>
-                <FIELD />
-                <FINAL />
-                <PRIVATE />
+                <FIELD>true</FIELD>
+                <FINAL>true</FINAL>
+                <PRIVATE>true</PRIVATE>
               </AND>
             </match>
           </rule>
@@ -311,8 +321,30 @@
           <rule>
             <match>
               <AND>
-                <FIELD />
-                <PUBLIC />
+                <FIELD>true</FIELD>
+                <PUBLIC>true</PUBLIC>
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PROTECTED>true</PROTECTED>
+              </AND>
+            </match>
+            <order>BY_NAME</order>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <FIELD>true</FIELD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
           </rule>
@@ -321,30 +353,11 @@
           <rule>
             <match>
               <AND>
-                <FIELD />
-                <PROTECTED />
+                <FIELD>true</FIELD>
+                <PRIVATE>true</PRIVATE>
               </AND>
             </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD />
-                <PACKAGE_PRIVATE />
-              </AND>
-            </match>
-          </rule>
-        </section>
-        <section>
-          <rule>
-            <match>
-              <AND>
-                <FIELD />
-                <PRIVATE />
-              </AND>
-            </match>
+            <order>BY_NAME</order>
           </rule>
         </section>
         <section>
@@ -405,8 +418,8 @@
           <rule>
             <match>
               <AND>
-                <METHOD />
-                <PACKAGE_PRIVATE />
+                <METHOD>true</METHOD>
+                <PACKAGE_PRIVATE>true</PACKAGE_PRIVATE>
               </AND>
             </match>
           </rule>

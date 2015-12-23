@@ -47,6 +47,10 @@
   <option name="DOWHILE_BRACE_FORCE" value="3" />
   <option name="WHILE_BRACE_FORCE" value="3" />
   <option name="FOR_BRACE_FORCE" value="3" />
+  <option name="CONSTRUCTORS_ORDER_WEIGHT" value="6" />
+  <option name="METHODS_ORDER_WEIGHT" value="7" />
+  <option name="STATIC_INNER_CLASSES_ORDER_WEIGHT" value="3" />
+  <option name="INNER_CLASSES_ORDER_WEIGHT" value="5" />
   <AndroidXmlCodeStyleSettings>
     <option name="USE_CUSTOM_SETTINGS" value="true" />
     <option name="LAYOUT_SETTINGS">

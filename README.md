@@ -3,7 +3,7 @@ jetbrains_env
 
 These are my customizations for a Jetbrains IDE (mostly Android Studio)
 
-![android studio color scheme](https://raw.githubusercontent.com/kaushikgopal/jetbrains_env/master/jetbrains_env_screenshot.jpg)
+![android studio color scheme](https://raw.githubusercontent.com/kaushikgopal/jetbrains_env/master/jetbrains_env_screenshot.png)
 
 
 ## Instructions

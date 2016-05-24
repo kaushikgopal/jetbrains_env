@@ -1,6 +1,6 @@
 <code_scheme name="codestyle_android_kg">
   <option name="FIELD_NAME_PREFIX" value="m" />
-  <option name="STATIC_FIELD_NAME_PREFIX" value="s" />
+  <option name="VISIBILITY" value="packageLocal" />
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
@@ -178,11 +178,11 @@
     <arrangement>
       <groups>
         <group>
-          <type>GETTERS_AND_SETTERS</type>
+          <type>OVERRIDDEN_METHODS</type>
           <order>KEEP</order>
         </group>
         <group>
-          <type>OVERRIDDEN_METHODS</type>
+          <type>GETTERS_AND_SETTERS</type>
           <order>KEEP</order>
         </group>
       </groups>
@@ -404,6 +404,66 @@
           <rule>
             <match>
               <AND>
+                <NAME>onCreate</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onStart</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onResume</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onPause</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onStop</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>onDestroy</NAME>
+                <OVERRIDDEN />
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
                 <METHOD />
                 <PUBLIC />
               </AND>
@@ -414,8 +474,8 @@
           <rule>
             <match>
               <AND>
-                <METHOD />
-                <PROTECTED />
+                <METHOD>true</METHOD>
+                <PROTECTED>true</PROTECTED>
               </AND>
             </match>
           </rule>
@@ -490,6 +550,26 @@
             <match>
               <AND>
                 <NAME>.*:id</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:inflatedId</NAME>
+                <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+              </AND>
+            </match>
+          </rule>
+        </section>
+        <section>
+          <rule>
+            <match>
+              <AND>
+                <NAME>.*:layout</NAME>
                 <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
               </AND>
             </match>

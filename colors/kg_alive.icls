@@ -1,10 +1,10 @@
 <scheme name="kg_alive" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
+  <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Fira Mono" />
   <option name="CONSOLE_FONT_SIZE" value="10" />
-  <option name="CONSOLE_LINE_SPACING" value="0.9" />
-  <option name="EDITOR_FONT_NAME" value="Fira Mono" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_NAME" value="Consolas for BBEdit" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="81d27d" />
     <option name="ANNOTATIONS_COLOR" value="4f5b66" />
@@ -207,6 +207,9 @@
       <value>
         <option name="FOREGROUND" value="96b5b4" />
       </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value />
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
@@ -508,7 +511,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fe7266" />
+        <option name="FOREGROUND" value="feef5a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -558,7 +561,9 @@
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="FONT_TYPE" value="2" />
+      </value>
     </option>
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
       <value>

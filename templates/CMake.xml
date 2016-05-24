@@ -1,0 +1,20 @@
+<templateSet group="CMake">
+  <template name="macro" value="macro($END$)&#10;    &#10;endmacro()" description="new macro definition" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="function" value="function($END$)&#10;    &#10;endfunction()" description="new function definition" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="if" value="if($END$)&#10;    &#10;endif()" description="if()-condition" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="foreach" value="foreach($END$)&#10;    &#10;endforeach()" description="foreach()-loop" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="while" value="while($END$)&#10;    &#10;endwhile()" description="while()-loop" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+  <template name="incboost" value="find_package(Boost)&#10;if (Boost_FOUND)&#10;    include_directories(${Boost_INCLUDE_DIR})&#10;endif()&#10;" description="Include directories with Boost" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

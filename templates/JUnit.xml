@@ -63,4 +63,18 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="t4s" value="@org.junit.Ignore&#10;@org.junit.Test&#10;public void $P$_Should$D$_When$W$() {&#10;    // TEST: write a test for this case&#10;    $END$&#10;}" description="Write a test spec (Ignored currently)" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="P" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="D" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="W" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>

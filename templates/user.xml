@@ -1,0 +1,32 @@
+<templateSet group="user">
+  <template name="&lt;abbreviation&gt;" value="/*// hacking&#10;        if (1 == 1) {&#10;            return true;&#10;        }*/" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="c" value="false" />
+      <option name="OC_DECLARATION_C" value="false" />
+      <option name="OC_STATEMENT_C" value="false" />
+      <option name="OC_EXPRESSION_C" value="false" />
+      <option name="cpp" value="false" />
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_STATEMENT_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

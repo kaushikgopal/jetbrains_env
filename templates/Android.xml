@@ -13,7 +13,7 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="bt" value="butterknife.ButterKnife.inject($TARGET$);" description="ButterKnife (inject)" toReformat="false" toShortenFQNames="true">
+  <template name="bt" value="butterknife.ButterKnife.bind($TARGET$);" description="ButterKnife (inject)" toReformat="false" toShortenFQNames="true">
     <variable name="TARGET" expression="&quot;this&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
@@ -60,14 +60,32 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
-  <template name="gone" value="$VIEW$.setVisibility(View.GONE);" description="Set view visibility to GONE" toReformat="true" toShortenFQNames="true" useStaticImport="true">
-    <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="visible" value="$VIEW$.setVisibility(View.VISIBLE);" description="Set view visibility to VISIBLE" toReformat="false" toShortenFQNames="true">
     <variable name="VIEW" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="bv" value="@butterknife.Bind(R.id.$VIEW_ID$) $VIEW_TYPE$ $VAR_NAME$;" description="ButterKnife bind view" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VIEW_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="editmode" value="if (isInEditMode()){&#10;  return;&#10;}&#10;" description="layout preview return if ineditmode" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_STATEMENT" value="true" />

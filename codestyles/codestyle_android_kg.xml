@@ -385,8 +385,9 @@
           <rule>
             <match>
               <AND>
-                <METHOD />
-                <STATIC />
+                <METHOD>true</METHOD>
+                <PUBLIC>true</PUBLIC>
+                <STATIC>true</STATIC>
               </AND>
             </match>
           </rule>

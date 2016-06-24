@@ -19,6 +19,9 @@
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta 9" />
+  </action>
   <action id="Android.RestartActivity" />
   <action id="Android.SyncProject">
     <keyboard-shortcut first-keystroke="meta alt s" />
@@ -92,8 +95,9 @@
   </action>
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCutLineEnd" />
-  <action id="EditorDeleteToLineStart">
-    <keyboard-shortcut first-keystroke="shift meta back_space" />
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -194,7 +198,6 @@
   <action id="Jdbc.OpenConsole" />
   <action id="Jdbc.RunSqlScript" />
   <action id="Jpa.OpenConsole" />
-  <action id="JumpToLastChange" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -329,6 +332,7 @@
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="f14" />
+    <keyboard-shortcut first-keystroke="shift meta alt d" />
   </action>
   <action id="ToggleTemporaryLineBreakpoint" />
   <action id="TypeHierarchy" />

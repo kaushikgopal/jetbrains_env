@@ -139,4 +139,17 @@
       <option name="COMPLETION" value="true" />
     </context>
   </template>
+  <template name="rxa" value="new Action1&lt;$CLAZZ$&gt;() {&#10;    @Override&#10;    public void call($CLAZZ$ $VAR_NAME$) {&#10;&#10;    }&#10;}, new Action1&lt;Throwable&gt;() {&#10;    @Override&#10;    public void call(Throwable throwable) {&#10;        $END$&#10;    }&#10;}" description="Rx Next + Error Actions" toReformat="true" toShortenFQNames="true">
+    <variable name="CLAZZ" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR_NAME" expression="suggestVariableName()" defaultValue="nextObject" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
 </templateSet>

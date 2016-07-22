@@ -32,10 +32,6 @@
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="meta alt i" />
   </action>
-  <action id="Back">
-    <mouse-shortcut keystroke="button4" />
-    <keyboard-shortcut first-keystroke="meta alt left" />
-  </action>
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
@@ -66,6 +62,9 @@
   <action id="CompareDirs" />
   <action id="CompareJars" />
   <action id="CompareTwoFiles" />
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="shift f9" />
+  </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift ctrl f9" />
@@ -86,13 +85,7 @@
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="meta button1" />
   </action>
-  <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="meta close_bracket" />
-  </action>
   <action id="EditorCodeBlockEndWithSelection" />
-  <action id="EditorCodeBlockStart">
-    <keyboard-shortcut first-keystroke="meta open_bracket" />
-  </action>
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCutLineEnd" />
   <action id="EditorDeleteToWordStart">
@@ -270,6 +263,7 @@
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
   </action>
+  <action id="RunToCursor" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -279,14 +273,12 @@
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
-  <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="meta alt f2" />
-  </action>
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="alt home" />
   </action>
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="shift meta l" />
@@ -326,10 +318,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
-  <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="meta f2" />
-  </action>
-  <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="f14" />
     <keyboard-shortcut first-keystroke="shift meta alt d" />

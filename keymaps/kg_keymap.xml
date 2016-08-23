@@ -155,9 +155,6 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
-  <action id="GotoNextError">
-    <keyboard-shortcut first-keystroke="f3" />
-  </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="shift f3" />
   </action>

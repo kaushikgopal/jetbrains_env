@@ -1,9 +1,10 @@
 <scheme name="kg_alive" version="142" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="CONSOLE_FONT_NAME" value="Fira Mono" />
   <option name="CONSOLE_FONT_SIZE" value="10" />
-  <option name="EDITOR_FONT_NAME" value="Inconsolata-dz" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_NAME" value="Consolas for BBEdit" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="81d27d" />
     <option name="ANNOTATIONS_COLOR" value="4f5b66" />
@@ -498,9 +499,7 @@
       </value>
     </option>
     <option name="LOGCAT_INFO_OUTPUT">
-      <value>
-        <option name="FOREGROUND" value="65737e" />
-      </value>
+      <value />
     </option>
     <option name="LOGCAT_WARNING_OUTPUT">
       <value>

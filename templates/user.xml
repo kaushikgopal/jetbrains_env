@@ -18,14 +18,6 @@
       <option name="GROOVY_EXPRESSION" value="false" />
       <option name="GROOVY_STATEMENT" value="false" />
       <option name="GROOVY_DECLARATION" value="false" />
-      <option name="c" value="false" />
-      <option name="OC_DECLARATION_C" value="false" />
-      <option name="OC_STATEMENT_C" value="false" />
-      <option name="OC_EXPRESSION_C" value="false" />
-      <option name="cpp" value="false" />
-      <option name="OC_DECLARATION_CPP" value="false" />
-      <option name="OC_STATEMENT_CPP" value="false" />
-      <option name="OC_EXPRESSION_CPP" value="false" />
       <option name="OTHER" value="false" />
     </context>
   </template>

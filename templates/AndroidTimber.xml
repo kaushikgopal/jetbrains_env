@@ -1,0 +1,91 @@
+<templateSet group="AndroidTimber">
+  <template name="timp" value="Timber.plant($tree$);" description="Add a new logging tree." toReformat="true" toShortenFQNames="true">
+    <variable name="tree" expression="" defaultValue="&quot;new Timber.DebugTree()&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timt" value="Timber.tag(&quot;$tag$&quot;);" description="Set a one-time tag for use on the next logging call." toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timv" value="Timber.tag($tag$).v(&quot;$METHOD_NAME$(): $content$&quot;);" description="Log a verbose message" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timd" value="Timber.tag($tag$).d(&quot;$METHOD_NAME$(): $content$&quot;);" description="Log a debug message" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timi" value="Timber.tag($tag$).i(&quot;$METHOD_NAME$(): $content$&quot;);" description="Log an information message" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timw" value="Timber.tag($tag$).w(&quot;$METHOD_NAME$(): $content$&quot;);" description="Log a warning message" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="time" value="Timber.tag($tag$).e(&quot;$METHOD_NAME$(): $content$&quot;);" description="Log an error message" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timm" value="Timber.tag($tag$).d(&quot;---- $METHOD_NAME$() called with: &quot; +  $args$);" description="Log method name and its arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="args" expression="groovyScript(&quot;'\&quot;' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + '\&quot;'&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timr" value="Timber.tag($tag$).d(&quot;$METHOD_NAME$() returned: &quot; + $result$);" description="Log result of this method" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="result" expression="variableOfType(methodReturnType())" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timwe" value="Timber.tag($tag$).w($throwable$, &quot;$METHOD_NAME$(): $content$&quot;);" description="Log a warning message with throwable" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="throwable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="Timber.tag($DEVNAME$).d(&quot;---- $END$&quot;);" description="Debug log" toReformat="true" toShortenFQNames="true">
+    <variable name="DEVNAME" expression="" defaultValue="&quot;KG&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+</templateSet>

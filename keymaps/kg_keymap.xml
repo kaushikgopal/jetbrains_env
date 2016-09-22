@@ -264,9 +264,6 @@
   <action id="ShowExecutionPoint">
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
-  <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="shift ctrl space" />
-  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="alt home" />
@@ -276,9 +273,6 @@
   </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="f7" />
-  </action>
-  <action id="SmartTypeCompletion">
-    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl d" />

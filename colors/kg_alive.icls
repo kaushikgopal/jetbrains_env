@@ -497,6 +497,9 @@
         <option name="FOREGROUND" value="4d9cee" />
       </value>
     </option>
+    <option name="LOGCAT_INFO_OUTPUT">
+      <value />
+    </option>
     <option name="LOGCAT_WARNING_OUTPUT">
       <value>
         <option name="FOREGROUND" value="feef5a" />

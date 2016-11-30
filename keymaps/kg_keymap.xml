@@ -1,4 +1,8 @@
 <keymap version="1" name="kg_keymap" parent="Mac OS X 10.5+">
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
@@ -12,7 +16,6 @@
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
   <action id="ActivateStructureToolWindow">
-    <keyboard-shortcut first-keystroke="meta 7" />
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="ActivateTerminalToolWindow">
@@ -79,6 +82,10 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Diff.UpdatedFiles" />
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -88,6 +95,18 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCutLineEnd" />
+  <action id="EditorDelete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="shift meta back_space" />
+  </action>
+  <action id="EditorDeleteToLineEnd">
+    <keyboard-shortcut first-keystroke="meta delete" />
+  </action>
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="shift alt back_space" />
@@ -118,6 +137,9 @@
   </action>
   <action id="EditorToggleColumnMode">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
   <action id="EvaluateExpression">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -180,6 +202,7 @@
   <action id="Jdbc.OpenConsole" />
   <action id="Jdbc.RunSqlScript" />
   <action id="Jpa.OpenConsole" />
+  <action id="JumpToLastChange" />
   <action id="LocalHistory.ShowHistory">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
@@ -252,6 +275,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
   </action>
   <action id="RunToCursor" />
+  <action id="SafeDelete" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -312,6 +336,14 @@
   </action>
   <action id="ToggleTemporaryLineBreakpoint" />
   <action id="TypeHierarchy" />
+  <action id="UsageView.Exclude">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="UsageView.Remove" />
+  <action id="Vcs.Show.Log">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>

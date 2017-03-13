@@ -205,6 +205,7 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FOREGROUND" value="b3b5af" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -270,11 +271,6 @@
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="8ac6f2" />
-      </value>
-    </option>
-    <option name="DEFAULT_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="99968b" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">

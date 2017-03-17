@@ -465,17 +465,17 @@
     </option>
     <option name="LOGCAT_INFO_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff00ff" />
+        <option name="FOREGROUND" value="53dccd" />
       </value>
     </option>
     <option name="LOGCAT_VERBOSE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="d4c4a9" />
+        <option name="FOREGROUND" value="7b7185" />
       </value>
     </option>
     <option name="LOGCAT_WARNING_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="eaea00" />
+        <option name="FOREGROUND" value="f9ca76" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">

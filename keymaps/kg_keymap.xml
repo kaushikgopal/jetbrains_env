@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="ctrl meta a" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt o" />
   </action>

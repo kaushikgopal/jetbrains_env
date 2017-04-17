@@ -1,4 +1,7 @@
 <keymap version="1" name="kg_keymap" parent="Mac OS X 10.5+">
+  <action id="Git.ResolveConflicts">
+    <keyboard-shortcut first-keystroke="ctrl meta c" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="ctrl meta a" />

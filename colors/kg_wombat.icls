@@ -1,6 +1,7 @@
 <scheme name="kg_wombat" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <option name="CONSOLE_FONT_NAME" value="SF Mono" />
   <option name="CONSOLE_FONT_SIZE" value="13" />
   <option name="CONSOLE_LINE_SPACING" value="1.1" />
@@ -26,13 +27,13 @@
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
     <option name="GUTTER_BACKGROUND" value="242424" />
-    <option name="INDENT_GUIDE" value="4a4a23" />
+    <option name="INDENT_GUIDE" value="3c3f41" />
     <option name="LINE_NUMBERS_COLOR" value="656565" />
     <option name="METHOD_SEPARATORS_COLOR" value="656565" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
-    <option name="RIGHT_MARGIN_COLOR" value="323232" />
-    <option name="SELECTED_INDENT_GUIDE" value="0" />
+    <option name="RIGHT_MARGIN_COLOR" value="4a86e8" />
+    <option name="SELECTED_INDENT_GUIDE" value="697f3f" />
     <option name="SELECTED_TEARLINE_COLOR" value="898941" />
     <option name="SELECTION_BACKGROUND" value="898941" />
     <option name="SELECTION_FOREGROUND" value="0" />
@@ -465,19 +466,26 @@
       </value>
     </option>
     <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="KOTLIN_SMART_CAST_RECEIVER">
       <value>
-        <option name="BACKGROUND" value="45552a" />
+        <option name="BACKGROUND" value="495523" />
       </value>
     </option>
     <option name="KOTLIN_SMART_CAST_VALUE">
       <value>
-        <option name="BACKGROUND" value="4a5524" />
+        <option name="BACKGROUND" value="45552a" />
       </value>
     </option>
     <option name="KOTLIN_SMART_CONSTANT">
       <value>
-        <option name="BACKGROUND" value="475529" />
+        <option name="BACKGROUND" value="495529" />
       </value>
     </option>
     <option name="LOGCAT_DEBUG_OUTPUT">

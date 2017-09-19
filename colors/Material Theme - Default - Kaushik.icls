@@ -4,21 +4,21 @@
     <property name="created">2017-09-16T16:47:01</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.0.0.13</property>
-    <property name="modified">2017-09-17T01:49:21</property>
+    <property name="modified">2017-09-18T17:19:02</property>
     <property name="originalScheme">Material Theme - Default copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.15" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
+    <option name="EDITOR_FONT_NAME" value="Inconsolata-g" />
+    <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Fira Code" />
-  <option name="CONSOLE_FONT_SIZE" value="13" />
-  <option name="CONSOLE_LINE_SPACING" value="1.2" />
+  <option name="CONSOLE_FONT_SIZE" value="11" />
+  <option name="CONSOLE_LINE_SPACING" value="1.1" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="c3e88d" />
     <option name="ANNOTATIONS_COLOR" value="fffbf7" />

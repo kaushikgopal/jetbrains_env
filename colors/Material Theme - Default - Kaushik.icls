@@ -4,7 +4,7 @@
     <property name="created">2017-09-16T16:47:01</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.0.0.13</property>
-    <property name="modified">2017-09-19T21:57:40</property>
+    <property name="modified">2017-10-10T20:03:00</property>
     <property name="originalScheme">Material Theme - Default copy</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.176" />
@@ -223,6 +223,11 @@
     <option name="Brackets">
       <value>
         <option name="FOREGROUND" value="89ddff" />
+      </value>
+    </option>
+    <option name="CLASS_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffcb6b" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -1384,6 +1389,36 @@
     <option name="LINE_PARTIAL_COVERAGE">
       <value>
         <option name="BACKGROUND" value="12404b" />
+      </value>
+    </option>
+    <option name="LOGCAT_ASSERT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="fc4db4" />
+      </value>
+    </option>
+    <option name="LOGCAT_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="8beafe" />
+      </value>
+    </option>
+    <option name="LOGCAT_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="fc4346" />
+      </value>
+    </option>
+    <option name="LOGCAT_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="49baff" />
+      </value>
+    </option>
+    <option name="LOGCAT_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="edeeec" />
+      </value>
+    </option>
+    <option name="LOGCAT_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="f0fb8c" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
